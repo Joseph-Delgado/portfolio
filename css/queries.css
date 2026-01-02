@@ -1,0 +1,135 @@
+@media (max-width: 9999em) {
+  .hero-services-mobile {
+    display: none;
+  }
+}
+
+/* **************************** */
+/* Below 912px (Smaller Desktops) */
+/* **************************** */
+
+@media (max-width: 57em) {
+  .heading-primary {
+    font-size: 2.8rem;
+  }
+
+  .section-hero {
+    padding: 4.8rem 0 1.6rem 0;
+  }
+
+  .hero-services-mobile {
+    display: none;
+  }
+}
+
+/* **************************** */
+/* Below 736px (Smaller Desktops) */
+/* **************************** */
+
+@media (max-width: 46em) {
+  .heading-primary {
+    font-size: 2.8rem;
+    padding: auto;
+  }
+
+  .header,
+  .logo-name {
+    display: block;
+    justify-self: center;
+    padding-top: 1.6rem;
+  }
+
+  .logo-name {
+    padding-bottom: 1.6rem;
+  }
+
+  .hero-focus-box {
+    padding: 4.8rem 0 2.4rem 0;
+  }
+
+  .jd-logo {
+    transform: translate(-50%, -25%);
+    opacity: 0.25;
+  }
+
+  .heading-primary {
+    display: none;
+  }
+
+  .hero-services-center,
+  .hero-services-mobile {
+    display: block;
+    justify-self: center;
+    font-weight: 700;
+    font-size: 3.6rem;
+    color: #eee;
+  }
+
+  .grid-2-cols {
+    row-gap: 9.6rem;
+    column-gap: 4.8rem;
+  }
+}
+
+/* **************************** */
+/* Below 592px (Smaller Desktops) */
+/* **************************** */
+
+@media (max-width: 37em) {
+  .coming-soon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.4rem;
+  }
+}
+
+/* **************************** */
+/* Below 512px (Smaller Desktops) */
+/* **************************** */
+
+@media (max-width: 32em) {
+  .logo-name {
+    font-size: 3.2rem;
+  }
+
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 1.6rem;
+  }
+
+  .mani-nav-list {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    align-items: center;
+    gap: 3.2rem;
+  }
+
+  .hero-focus-text {
+    font-size: 6rem;
+  }
+
+  .jd-logo {
+    width: 36rem;
+  }
+
+  .hero-services-center,
+  .hero-services-mobile {
+    font-size: 2rem;
+  }
+
+  .grid-2-cols {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 4.8rem;
+    column-gap: 9.6rem;
+  }
+
+  .coming-soon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.4rem;
+  }
+}

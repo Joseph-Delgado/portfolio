@@ -1,0 +1,142 @@
+/* **************************** */
+/* HEADER */
+/* **************************** */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: #111; */
+  height: 8rem;
+  padding: 4.8rem;
+}
+
+.logo-name {
+  font-size: 4.8rem;
+  text-decoration: none;
+  color: #eee;
+  text-wrap: nowrap;
+}
+
+.mani-nav-list {
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+  align-items: center;
+  gap: 3.2rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #eee;
+  font-size: 2rem;
+  transition: 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #cd00cb;
+}
+
+/* **************************** */
+/* HERO */
+/* **************************** */
+
+.section-hero {
+  padding: 4.8rem 0 9.6rem 0;
+  /* z-index: -2; */
+}
+
+.hero {
+  position: relative;
+}
+
+.hero-focus-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4.8rem 0 31rem 0;
+}
+
+.glow {
+  text-shadow: 0 0 5px #eee, 0 0 15px #eee, 0 0 40px #cd00cb, 0 0 75px #cd00cb,
+    2px 2px 2px #111;
+  color: #eee;
+}
+
+.hero-focus-text {
+  font-weight: 500;
+  font-size: 9.8rem;
+  letter-spacing: 10px;
+  padding-bottom: 1.6rem;
+  z-index: +1;
+}
+
+.hero-focus-box::before {
+  display: block;
+  position: absolute;
+  content: "";
+  width: 01%;
+  /* height: 0.01%; */
+  padding-bottom: 00%;
+  background-color: #cd00cb;
+  border-radius: 50%;
+  box-shadow: 0px 0px 139px 120px hsla(249, 100%, 50%, 0.2);
+
+  transform: translate(100%, 100%);
+  /* z-index: -999; */
+}
+
+.jd-logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 48rem;
+  transform: translate(-50%, -40%);
+  z-index: -1;
+  opacity: 0.5;
+}
+
+.hero-services {
+  display: flex;
+  justify-content: center;
+}
+
+/* **************************** */
+/* WEB DESIGN GALLERY */
+/* **************************** */
+
+.gallery-item {
+  border-radius: 9px;
+  display: block;
+  width: 100%;
+  box-shadow: 0 0 27px -1px #cd00cb;
+  overflow: hidden;
+}
+
+.gallery-item img {
+  display: block;
+  width: 100%;
+  transition: all 0.3s;
+}
+
+.gallery-item img:hover {
+  transform: scale(1.1);
+}
+
+.coming-soon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+}
+
+/* **************************** */
+/* FOOTER */
+/* **************************** */
+.footer {
+  font-size: 1.6rem;
+  color: #eee;
+}

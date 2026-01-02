@@ -1,0 +1,54 @@
+/* 
+background  #050505
+shades #1E1E1E
+
+
+Text        #E4E4E4
+Design      #C8D3D5
+Accents     #6A7152, #6DF7C0, #DE369D, #306BAC
+
+
+*/
+/* 
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+/* DEFAULTS
+flex-grow: 0;
+flex-shirnk: 1;
+flex-basis: auto;
+
+Default: 1
+Small: 1.05
+medium: 1.2
+large 1.8
+Paragraph Default: 1.6
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* -------------------- */
+/* GENERAL STYLES */
+/* -------------------- */
+body {
+  font-family: "inter", sans-serif;
+  color: #e4e4e4;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #050505;
+}
+
+.container-padding {
+  padding: 0 18px 0 18px;
+}
+
+.list-style-none {
+  list-style: none;
+}

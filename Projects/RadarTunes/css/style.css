@@ -1,0 +1,131 @@
+/* -------------------- */
+/* HEADER */
+/* -------------------- */
+.section-header {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-right: 1.8rem;
+}
+
+.main-nav-list {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  list-style: none;
+  gap: 1.2rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #e4e4e4;
+  font-weight: 500;
+  font-size: 1.4rem;
+  transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #439775;
+}
+
+/* -------------------- */
+/* HERO */
+/* -------------------- */
+
+.section-hero {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  cursor: default;
+}
+
+.hero-logo {
+  display: flex;
+  justify-content: space-around;
+  font-size: 10rem;
+  font-weight: 900;
+}
+
+.hero-text-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-audio-container {
+  display: flex;
+  justify-content: center;
+}
+
+/* -------------------- */
+/* SERVICES */
+/* -------------------- */
+
+/* .section-services {
+  background-color: #1e1e1e;
+} */
+
+.services-grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  gap: 24px;
+  /* background-color: red; */
+  padding: 0 10rem;
+  padding-bottom: 25vh;
+}
+
+.service-grid-item {
+  border: 5px;
+  border-radius: 10px;
+  background: radial-gradient(
+        circle at 100% 100%,
+        #050505 0,
+        #050505 3px,
+        transparent 3px
+      )
+      0% 0%/8px 8px no-repeat,
+    radial-gradient(circle at 0 100%, #050505 0, #050505 3px, transparent 3px)
+      100% 0%/8px 8px no-repeat,
+    radial-gradient(circle at 100% 0, #050505 0, #050505 3px, transparent 3px)
+      0% 100%/8px 8px no-repeat,
+    radial-gradient(circle at 0 0, #050505 0, #050505 3px, transparent 3px) 100%
+      100%/8px 8px no-repeat,
+    linear-gradient(#050505, #050505) 50% 50% / calc(100% - 10px)
+      calc(100% - 16px) no-repeat,
+    linear-gradient(#050505, #050505) 50% 50% / calc(100% - 16px)
+      calc(100% - 10px) no-repeat,
+    linear-gradient(0deg, transparent 0%, #6a7152 100%);
+  border-radius: 8px;
+  padding: 9px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  padding: 9px;
+  box-sizing: border-box;
+  padding: 18px;
+}
+
+.services-grid-item:first-child {
+  grid-column-start: 2;
+}
+
+.service-item-title {
+  padding-bottom: 18px;
+}
+
+.list {
+  margin-left: 16px;
+}
+
+.temp {
+  width: 24px;
+  height: 24px;
+  background-color: red;
+  fill: #e4e4e4;
+}

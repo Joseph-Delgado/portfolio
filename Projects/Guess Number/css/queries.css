@@ -1,0 +1,98 @@
+/*  630  */
+
+@media (max-width: 40em) {
+  h1 {
+    font-size: 3rem;
+
+    width: 100%;
+    top: 52%;
+    left: 50%;
+  }
+
+  /* .home,
+  .again {
+    display: flex;
+    padding: 1.6rem;
+  } */
+
+  .guess {
+    border: 4px solid #eee;
+    font-size: 4rem;
+    padding: 1rem;
+    width: 15rem;
+    margin-bottom: 3rem;
+  }
+
+  .btn {
+    font-size: 1.6rem;
+    padding: 1.6rem 3rem;
+  }
+
+  .message {
+    margin-bottom: 4rem;
+  }
+
+  .message,
+  .label-score,
+  .label-highscore {
+    font-size: 1.6rem;
+    /* margin-bottom: 8rem;
+    height: 3rem; */
+  }
+}
+
+/* 384 */
+
+@media (max-width: 24em) {
+  h1 {
+    font-size: 2.6rem;
+
+    width: 100%;
+    top: 52%;
+    left: 50%;
+  }
+
+  header {
+    height: 50vh;
+  }
+  /* .home,
+  .again {
+    display: flex;
+    padding: 1.6rem;
+  } */
+
+  .number {
+    font-size: 4rem;
+
+    width: 15rem;
+    padding: 3rem 0rem;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+  }
+
+  .guess {
+    border: 4px solid #eee;
+    font-size: 3rem;
+    padding: 1rem;
+    width: 10rem;
+    margin-bottom: 3rem;
+  }
+
+  .btn {
+    font-size: 1.4rem;
+    padding: 1rem 2rem;
+  }
+
+  .message {
+    margin-bottom: 4rem;
+  }
+
+  .message,
+  .label-score,
+  .label-highscore {
+    font-size: 1.6rem;
+    /* margin-bottom: 8rem;
+    height: 3rem; */
+  }
+}
