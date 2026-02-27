@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link href="sprite.svg" rel="spritesheet" /> -->
+    <link href="style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Media Players</title>
+  </head>
+
+  <body>
+    <div class="box center">
+      <div class="box-1 center">
+        <h4 class="artist-name">JD</h4>
+        <div class="art">
+          <img
+            class="center"
+            id="artist"
+            src="media/thumbnail.png"
+            alt="music player"
+          />
+        </div>
+        <div class="track-name">
+          <p class="title">Synthwave 1.0</p>
+        </div>
+        <div class="progress">
+          <div class="time">
+            <div class="start">
+              <p id="start">0:00</p>
+            </div>
+            <div class="end">
+              <p id="end">0:00</p>
+            </div>
+          </div>
+          <div class="line">
+            <div class="lineChild"></div>
+          </div>
+        </div>
+        <div class="msc center">
+          <div class="ctrl center" onclick="backward()">
+            <svg class="ctrl center backward">
+              <use xlink:href="sprites/sprite.svg#backward"></use>
+            </svg>
+          </div>
+          <div class="ctrl center" id="playsong">
+            <svg class="ctrl center play">
+              <use xlink:href="sprites/sprite.svg#play"></use>
+            </svg>
+            <svg class="ctrl center pause none">
+              <use xlink:href="sprites/sprite.svg#pause"></use>
+            </svg>
+          </div>
+          <div class="ctrl center" onclick="forward()">
+            <svg class="ctrl center forward">
+              <use xlink:href="sprites/sprite.svg#forward"></use>
+            </svg>
+          </div>
+          <audio src="media/Songs/Synthwave 1 v0.14.mp3" class="song"></audio>
+        </div>
+      </div>
+    </div>
+
+    <script defer src="script.js"></script>
+  </body>
+</html>
+
+<!-- 
+    <svg class="icon">
+      <use href="sprites/sprite.svg#pause-sharp"></use>
+    </svg>
+    -->

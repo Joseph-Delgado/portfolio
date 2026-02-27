@@ -1,0 +1,218 @@
+/* 
+
+
+--- 01 Typography System 
+
+- Font Size System (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Font Weights
+Default:    400
+Medium:     500
+Semi-bold:  600
+Bold:       700
+
+- Line Heights
+Default: 1
+Small: 1.05
+medium: 1.2
+large 1.8
+Paragraph Default: 1.6
+
+- letter spacing 
+  -0.75
+  0.75
+
+  
+  -- 02 COLORS
+  
+  - Primary : 
+  - Tints: 
+
+  - Shades:
+
+  - Accents:
+  - Greys:
+  #bebebe
+  #888
+  #777
+  #767676
+  #6f6f6f
+  #555
+  #333
+  --- 05 SHADOWS
+  
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  
+  --- 06 BORDER RADIUS
+  Default 10px
+  Medium 
+  
+  --- 07 WHITESPACE
+  
+  - Spacing System (px)
+  2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+  
+  */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  color: #bebebe;
+  stroke: #bebebe;
+  fill: #bebebe;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  /* scroll-behavior: smooth; */
+}
+
+.box-1 {
+  background: linear-gradient(#000000 -60%, rgb(87, 0, 0));
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background-color: #3b3b3b;
+}
+.box {
+  height: 100vh;
+  flex-direction: column;
+}
+
+.time,
+.track-name,
+.box-1 h4 {
+  pointer-events: none;
+}
+
+.art img {
+  width: 16rem;
+  height: 16rem;
+  margin-bottom: 1.6rem;
+  border-radius: 10px;
+  border: 5px solid #181818;
+}
+
+.box-1 {
+  flex-direction: column;
+  width: 32rem;
+  height: 48rem;
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px rgb(26, 26, 26), -2px -2px 5px rgb(59, 59, 59);
+}
+
+.art-name {
+  text-align: center;
+  width: 17rem;
+}
+
+.box-1 h4 {
+  margin-bottom: 0.4rem;
+  font-size: 1.8rem;
+  /* pointer-events: none; */
+  /* background-color: aqua; */
+}
+
+.track-name {
+  white-space: nowrap;
+  font-weight: 700;
+  overflow-x: hidden;
+  font-size: 1.6rem;
+  /* pointer-events: none; */
+}
+
+.run {
+  animation: run 10s linear infinite;
+}
+
+@keyframes run {
+  0% {
+    transform: translatex(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.ctrl {
+  cursor: pointer;
+  background-color: #111;
+  height: 52px;
+  width: 52px;
+  border-radius: 50%;
+  margin: 0 12px;
+}
+
+.ctrl.active {
+  transform: scale(0.9);
+}
+
+svg {
+  font-size: 2.2rem;
+}
+
+.none {
+  display: none;
+  /* visibility: hidden; */
+}
+
+.msc {
+  margin-top: 30px;
+}
+
+.progress {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.time {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 10px;
+  /* pointer-events: none; */
+}
+
+.line {
+  width: 100%;
+  height: 5px;
+  margin-top: 5px;
+  background-color: #c0c0c0;
+  position: relative;
+  cursor: pointer;
+}
+
+.lineChild {
+  cursor: pointer;
+  position: absolute;
+  border-radius: 10px;
+  background-color: #3f3f3f;
+  width: 0%;
+  height: 100%;
+  transition: width 0.1s;
+}
+
+.lineChild::after {
+  content: "";
+  position: absolute;
+  background-color: #3f3f3f;
+  cursor: pointer;
+  top: -6px;
+  right: 0;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  outline: solid #181818 2px;
+}
