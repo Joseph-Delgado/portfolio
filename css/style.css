@@ -45,7 +45,9 @@
 /* **************************** */
 
 .section-hero {
-  padding: 4.8rem 0 9.6rem 0;
+  padding: 20rem 0 48rem 0;
+  /* height: 100vh; */
+  min-height: 48rem;
   /* z-index: -2; */
 }
 
@@ -53,17 +55,35 @@
   position: relative;
 }
 
+.hero-heading {
+  padding-top: 12.8rem;
+}
+
 .hero-focus-box {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 4.8rem 0 31rem 0;
+  padding: 4.8rem 0 32rem 0;
 }
 
 .glow {
-  text-shadow: 0 0 5px #eee, 0 0 15px #eee, 0 0 40px #cd00cb, 0 0 75px #cd00cb,
+  text-shadow:
+    0 0 5px #eee,
+    0 0 15px #eee,
+    0 0 40px #cd00cb,
+    0 0 75px #cd00cb,
     2px 2px 2px #111;
   color: #eee;
+}
+
+.jd-logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 48rem;
+  transform: translate(-50%, -40%);
+  z-index: -1;
+  opacity: 0.5;
 }
 
 .hero-focus-text {
@@ -79,27 +99,14 @@
   position: absolute;
   content: "";
   width: 01%;
-  /* height: 0.01%; */
   padding-bottom: 00%;
   background-color: #cd00cb;
   border-radius: 50%;
   box-shadow: 0px 0px 139px 120px hsla(249, 100%, 50%, 0.2);
-
   transform: translate(100%, 100%);
-  /* z-index: -999; */
 }
 
-.jd-logo {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 48rem;
-  transform: translate(-50%, -40%);
-  z-index: -1;
-  opacity: 0.5;
-}
-
-.hero-services {
+.hero-heading {
   display: flex;
   justify-content: center;
 }
@@ -107,30 +114,109 @@
 /* **************************** */
 /* WEB DESIGN GALLERY */
 /* **************************** */
-
-.gallery-item {
-  border-radius: 9px;
-  display: block;
-  width: 100%;
-  box-shadow: 0 0 27px -1px #cd00cb;
-  overflow: hidden;
+.section-web-design {
+  padding-bottom: 32rem;
 }
 
-.gallery-item img {
-  display: block;
-  width: 100%;
-  transition: all 0.3s;
+.heading-secondary {
+  padding-bottom: 12.8rem;
 }
 
-.gallery-item img:hover {
-  transform: scale(1.1);
+.wb-dsgn-prjt-name {
+  font-weight: 700;
+  font-size: 5.2rem;
+  margin-bottom: 3.2rem;
+  color: #810795;
+  padding: 2rem;
+  border-radius: 20px;
+  background: linear-gradient(to right, #0d010f, #181716, #0d010f, #0d010f);
 }
 
-.coming-soon {
+.wb-dsgn-img {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 3rem;
+  height: 40rem;
+}
+
+.wb-dsgn-descr-box {
+  align-self: center;
+  padding-left: 4.8rem;
+}
+
+.wb-dsgn-prjct-dscr {
+  font-size: 3.6rem;
+  padding: 0 0 2.4rem 4.8rem;
+}
+
+.highlight {
+  color: #c083ca;
+}
+
+.wb-dsgn-btn-box {
+  display: flex;
+  justify-content: right;
+  padding-right: 4.8rem;
+}
+
+.link {
+  font-size: 3.6rem;
+  justify-content: right;
+  background-color: #c083ca;
+  /* background-color: #27022d; */
+  color: #ffede1;
+  border-radius: 10px;
+  padding: 10px;
+  outline: 5px solid #ffede1;
+}
+
+.link:link,
+.link:visited {
+  color: #27022d;
+  /* color: #c083ca; */
+}
+
+.link:hover,
+.link:active {
+  color: #ffede1;
+}
+
+/* **************************** */
+/* GAME DEVELOPMENT GALLERY */
+/* **************************** */
+
+.gm-dv-app-name {
+  font-weight: 700;
+  font-size: 4.8rem;
+  /* margin-bottom: 3.2rem; */
+  color: #810795;
+  padding-bottom: 2rem;
+  border-radius: 20px;
+  /* background: linear-gradient(to right, #0d010f, #181716, #0d010f, #0d010f); */
+}
+
+.cntrbtn-list {
+  font-size: 2.4rem;
+  list-style: inside;
+  margin-left: 2rem;
+  padding-top: 2rem;
+}
+
+.game {
+  display: flex;
+  flex-direction: column;
+  /* justify-self: center; */
+}
+
+.gm-dv-app-img-box {
+  display: flex;
+  background: linear-gradient(to right, #8207955d, #0d010f);
+  border-radius: 20px;
+
+  /* justify-content: center; */
+  height: 20rem;
+}
+
+.game-img {
+  padding: 10px;
 }
 
 /* **************************** */
