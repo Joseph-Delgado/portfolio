@@ -92,12 +92,12 @@ body {
 .grid-3-cols {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  row-gap: 6.4rem;
+  /* row-gap: 6.4rem; */
 }
 .grid-4-cols {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  row-gap: 6.4rem;
+  /* row-gap: 6.4rem; */
 }
 
 .heading-primary {
