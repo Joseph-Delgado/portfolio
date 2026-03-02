@@ -153,10 +153,11 @@
 
   .gm-dv-app-grid {
     grid-template-columns: 30rem 30rem 30rem;
+    gap: 2rem;
   }
 
   .gm-dv-app-name {
-    font-size: 3.6rem;
+    font-size: 2rem;
   }
 
   .gm-dv-app-img-box {
@@ -164,7 +165,7 @@
   }
 
   .cntrbtn-list {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 }
 
@@ -173,28 +174,37 @@
 /* **************************** */
 
 @media (max-width: 71em) {
-  .heading-primary {
-    font-size: 4.4rem;
+  .section-hero {
+    padding: 05rem 0 0 0;
+    /* height: 100vh; */
+    min-height: 48rem;
+    /* z-index: -2; */
   }
 
-  .heading-secondary {
-    font-size: 5.2rem;
+  .grid-2-cols {
+    grid-template-columns: 1fr;
+    row-gap: 10px;
+  }
+
+  .wb-dsgn-img-box {
+    display: flex;
+    justify-self: center;
+    margin-bottom: auto;
+  }
+
+  .jd-logo {
+    width: 40rem;
+  }
+
+  .hero-focus-text {
+    font-size: 7.4rem;
+  }
+  .heading-primary {
+    font-size: 3rem;
   }
 
   .gm-dv-app-grid {
-    grid-template-columns: 30rem 30rem 30rem;
-  }
-
-  .gm-dv-app-name {
-    font-size: 3.6rem;
-  }
-
-  .gm-dv-app-img-box {
-    height: 10rem;
-  }
-
-  .cntrbtn-list {
-    font-size: 2rem;
+    grid-template-columns: 30rem 30rem;
   }
 }
 
