@@ -209,6 +209,92 @@
 }
 
 /* **************************** */
+/* Below 592px (Smaller Desktops) */
+/* **************************** */
+
+@media (max-width: 37em) {
+  .container {
+    padding: 3rem;
+  }
+
+  .jd-logo {
+    width: 20rem;
+  }
+
+  .hero-focus-text {
+    font-size: 3.6rem;
+  }
+
+  .heading-secondary {
+    padding-bottom: 0rem;
+  }
+
+  .wb-dsgn-prjct-dscr {
+    font-size: 1.2rem;
+  }
+
+  .link {
+    font-size: 1.2rem;
+    border-radius: 5px;
+    padding: 5px;
+    outline: 1px solid #ffede1;
+  }
+
+  .wb-dsgn-img {
+    height: 15rem;
+  }
+
+  .section-web-design {
+    padding-bottom: 3rem;
+  }
+  .gm-dv-app-grid {
+    grid-template-columns: 15rem 15rem;
+  }
+
+  .gm-dv-app-name {
+    font-size: 2rem;
+  }
+
+  .gm-dv-app-img-box {
+    height: 5rem;
+  }
+
+  .cntrbtn-list {
+    font-size: 1rem;
+  }
+  /* .section-hero {
+    padding: 05rem 0 0 0;
+    min-height: 48rem;
+  } */
+
+  /* .grid-2-cols {
+    grid-template-columns: 1fr;
+    row-gap: 10px;
+  } */
+
+  /* .wb-dsgn-img-box {
+    display: flex;
+    justify-self: center;
+    margin-bottom: auto;
+  } */
+
+  /* .jd-logo {
+    width: 40rem;
+  } */
+
+  /* .hero-focus-text {
+    font-size: 7.4rem;
+  } */
+  /* .heading-primary {
+    font-size: 3rem;
+  } */
+
+  /* .gm-dv-app-grid {
+    grid-template-columns: 30rem 30rem;
+  } */
+}
+
+/* **************************** */
 /* Below 736px (Smaller Desktops) */
 /* **************************** */
 
