@@ -1,0 +1,102 @@
+.grid-2-cols {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 2rem;
+  column-gap: 1.4rem;
+}
+.grid-3-cols {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 2rem;
+  column-gap: 1.4rem;
+}
+
+/* **************************** */
+/* HEADER */
+/* **************************** */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #82079552;
+
+  /* height: 8rem; */
+  padding: 0.8rem;
+}
+
+.header-title {
+  font-size: 2.4rem;
+  text-decoration: none;
+  color: #eee;
+  text-wrap: nowrap;
+}
+
+.mani-nav-list {
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+  align-items: center;
+  gap: 3.2rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #eee;
+  font-size: 2rem;
+  transition: 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #cd00cb;
+}
+
+/* **************************** */
+/* HERO */
+/* **************************** */
+.section--hero-box {
+  justify-items: center;
+}
+
+.clothes-item-box {
+  position: relative;
+  background-color: #e9e1de;
+  outline: 1px solid rgb(134, 134, 134);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+.clothes-item-img {
+  width: 8rem;
+}
+
+.item-details-box {
+  padding: 5px;
+}
+
+.item-number {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: -10px;
+  left: -10px;
+
+  font-size: 1.6rem;
+  color: #eee;
+  background-color: #9975a5;
+  border-radius: 50%;
+  width: 25px;
+  padding: 5px;
+  outline: 1px solid #eee;
+}
+
+/* **************************** */
+/* FOOTER */
+/* **************************** */
+.footer {
+  font-size: 1.6rem;
+  color: #eee;
+}
