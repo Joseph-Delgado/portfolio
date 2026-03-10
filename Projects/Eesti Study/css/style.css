@@ -1,0 +1,53 @@
+/* 
+#006ec8 
+#040809
+#f7f7f7
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  /* scroll-behavior: smooth; */
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1;
+  font-weight: 300;
+  color: #efe7e7;
+  background: #006ec8;
+}
+
+.grid-2-cols {
+  display: grid;
+  justify-self: center;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.8rem 0.8rem;
+}
+
+.word {
+  font-size: 4rem;
+  background-color: #040809;
+  padding: 4rem 1rem 4rem 1rem;
+}
+
+.word-en {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  width: 100%;
+}
+
+.word-ee {
+  opacity: 0;
+}
+
+.word-ee:hover {
+  opacity: 100;
+}
