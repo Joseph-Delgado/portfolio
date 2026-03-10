@@ -39,13 +39,21 @@ body {
 
 .word-show {
   display: flex;
-  justify-content: right;
+  justify-content: center;
   align-items: center;
   width: 100%;
 }
 
+.hidden-box {
+  border: 2px solid grey;
+}
+
 .word-hide {
   opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
 .word-hide:hover {
