@@ -37,17 +37,17 @@ body {
   padding: 4rem 1rem 4rem 1rem;
 }
 
-.word-en {
+.word-show {
   display: flex;
   justify-content: right;
   align-items: center;
   width: 100%;
 }
 
-.word-ee {
+.word-hide {
   opacity: 0;
 }
 
-.word-ee:hover {
+.word-hide:hover {
   opacity: 100;
 }

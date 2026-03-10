@@ -26,9 +26,16 @@ const vocabulary = [
 
 vocabulary.forEach((pair) => {
   const html = `
-          <p class="word-en word">${pair.en}</p>
-          <p class="word-ee word">${pair.ee}</p>`;
+          <p class="word-show word">${pair.en}</p>
+          <p class="word-hide word">${pair.ee}</p>`;
 
+  verbsGridContainerEL.insertAdjacentHTML("beforeend", html);
+});
+
+vocabulary.forEach((pair) => {
+  const html = `
+          <p class="word-hide word">${pair.en}</p>
+          <p class="word-show word">${pair.ee}</p>`;
   verbsGridContainerEL.insertAdjacentHTML("beforeend", html);
 });
 
