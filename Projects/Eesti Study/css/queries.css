@@ -26,10 +26,10 @@
 /* below 560px */
 /* ***************** */
 
-@media (max-width: 35em) {
+/* @media (max-width: 35em) {
   .word {
     font-size: 1rem;
     background-color: #040809;
     padding: 1rem 0.5rem 1rem 0.5rem;
   }
-}
+} */

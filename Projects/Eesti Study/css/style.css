@@ -41,9 +41,16 @@ body {
   padding: 4rem 1rem 4rem 1rem;
 }
 
-.word-visible {
+.word-box {
   display: flex;
   justify-content: center;
+  width: 100%;
+}
+
+.word-visible {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center; */
   align-items: center;
   width: 100%;
 }
@@ -55,9 +62,11 @@ body {
 .word-hidden {
   opacity: 0;
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  /* justify-content: center; */
   align-items: center;
   width: 100%;
+  height: 100%;
 }
 
 .word-hidden:hover {

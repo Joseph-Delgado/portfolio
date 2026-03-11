@@ -81,10 +81,12 @@ vocabulary.forEach(pair => {
 
 vocabulary.forEach(pair => {
   const html = `
-          <div class="hidden-box">
+          <div class="word-box hidden-box">
           <p class="word-hidden word">${pair.en}</p>
           </div>
+          <div class="word-box visible-box">
           <p class="word-visible word">${pair.ee}</p>
+          </div>
           `;
   verbsGridContainerEL.insertAdjacentHTML('beforeend', html);
 });
