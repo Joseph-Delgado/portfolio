@@ -35,6 +35,9 @@ body {
 }
 
 .instructions-box {
+  display: grid;
+  gap: 10px;
+  justify-content: center;
   padding-top: 3rem;
   padding: 3rem 2rem 2rem 2rem;
   border-bottom: 2px solid rgba(0, 0, 0, 0.329);
@@ -57,15 +60,11 @@ body {
 }
 
 .word {
+  display: flex;
+  justify-content: center;
   font-size: 4rem;
   background-color: #040809;
   padding: 4rem 1rem 4rem 1rem;
-}
-
-.word-box {
-  display: flex;
-  justify-content: center;
-  width: 100%;
 }
 
 .word-visible {
