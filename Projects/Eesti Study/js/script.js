@@ -9,7 +9,7 @@ const vocabulary = [
   { en: 'To can, to be allowed', ee: 'võima, võin' },
   { en: 'To be able to, to receive', ee: 'saama, saada, saan' },
   { en: 'To offer', ee: 'pakkuma, pakkuda, pakun' },
-  { en: 'To apply', ee: 'kandideerima, kandideerida,<br />kandideerin' },
+  { en: 'To apply', ee: 'kandideerima, kandideerida, kandideerin' },
   { en: 'To send', ee: 'saatma, saata, saadan' },
   { en: 'To hire', ee: 'palkama, palgata, palkan' },
   { en: 'To earn', ee: 'teenima, teenida, teenin' },
@@ -18,11 +18,29 @@ const vocabulary = [
   { en: 'To help', ee: 'aitama, aidata, aitan' },
   { en: 'To teach', ee: 'õpetama, õpetada, õpetan' },
   { en: 'To study', ee: 'õppima, õppida, õpin' },
-  { en: 'To mean', ee: 'tähendama, tähendada,<br />tähendab' },
+  { en: 'To mean', ee: 'tähendama, tähendada, tähendab' },
   { en: 'To translate', ee: 'tõlkima, tõlkida, tõlgin' },
   { en: 'To repeat', ee: 'kordama, korrata, kordan' },
   { en: 'To wait', ee: 'ootama, oodata, ootan' },
   { en: 'To fly', ee: 'lendama, lennata, lendan' },
+  { en: 'To live', ee: 'Elama, Elada, Ela' },
+  { en: 'to read', ee: 'Lugema, lugeda, loe' },
+  { en: 'Year', ee: 'aasta' },
+  { en: 'season', ee: 'aastajad' },
+  { en: 'month', ee: 'kuud' },
+  { en: 'Winter', ee: 'talv' },
+  { en: 'Spring', ee: 'kevad' },
+  { en: 'Summer', ee: 'suvi' },
+  { en: 'Autumn', ee: 'sügis' },
+  { en: 'excuse me', ee: 'Vabandage mind' },
+  { en: 'lets get acquinted', ee: 'Saage tuttavaks' },
+  { en: 'teacher', ee: 'õpetaja, õpetaja, õpetajat/õpetajaid' },
+  { en: 'Doctor ', ee: 'Arst, arsti, arsti/arste' },
+  { en: 'Driver ', ee: 'Autojuht, autojuhi, autojuhti / autojuhte' },
+  { en: 'Builder ', ee: 'Ehita, ehitaja, ehitajat / ehitajaid' },
+  { en: 'Waiter', ee: 'Ettekandja, ettekandja, ettekandjat / ettekandjaid' },
+  { en: 'Cute', ee: 'armas' },
+  { en: 'Fruit', ee: 'puuvili' },
   { en: 'good morning', ee: 'Tere hommikust' },
   { en: 'good day', ee: 'Tere paevast' },
   { en: 'good afternoon/evening', ee: 'Tere õhtust' },
@@ -35,29 +53,8 @@ const vocabulary = [
   { en: 'good night!', ee: 'Head ööd' },
   { en: 'All the best!', ee: 'Kõike head' },
   { en: 'see you!', ee: 'Kohtumiseni ' },
-  { en: 'excuse me', ee: 'Vabandage mind' },
-  { en: 'To live', ee: 'Elama, Elada, Ela' },
-  { en: 'to read', ee: 'Lugema, lugeda, loe' },
-  { en: 'Winter', ee: 'talv' },
-  { en: 'Spring', ee: 'kevad' },
-  { en: 'Summer', ee: 'suvi' },
-  { en: 'Autumn', ee: 'sügis' },
-  { en: 'Year', ee: 'aasta' },
-  { en: 'season', ee: 'aastajad' },
-  { en: 'month', ee: 'kuud' },
   { en: 'before', ee: 'enne' },
   { en: 'after', ee: 'perast' },
-  { en: 'lets get acquinted', ee: 'Saage tuttavaks' },
-  { en: 'teacher', ee: 'õpetaja, õpetaja,<br />õpetajat/õpetajaid' },
-  { en: 'Doctor ', ee: 'Arst, arsti, arsti/arste' },
-  { en: 'Driver ', ee: 'Autojuht, autojuhi,<br />autojuhti / autojuhte' },
-  { en: 'Builder ', ee: 'Ehita, ehitaja,<br />ehitajat / ehitajaid' },
-  {
-    en: 'Waiter',
-    ee: 'Ettekandja, ettekandja,<br />ettekandjat / ettekandjaid',
-  },
-  { en: 'Cute', ee: 'armas' },
-  { en: 'Fruit', ee: 'puuvili' },
 ];
 
 function addOpacityEffect(element) {
@@ -104,9 +101,7 @@ if (gridContainer) {
 
       setTimeout(() => {
         hiddenCell.style.opacity = 0;
-      }, 3000); // 2 seconds + 2 seconds
-
-      // console.log('clicked');
+      }, 3000);
     });
   });
 } else {
