@@ -62,8 +62,8 @@ const vocabulary = [
   { en: 'singer', ee: 'laulja, laulja, lauljat / lauljaid' },
   { en: 'scientist', ee: 'teadlane, teadlase, teadlast / teadlasi' },
   { en: 'architect', ee: 'arhitekt, arhitekti, arhitekti / arhitekte' },
-  { en: 'Cute', ee: 'armas' },
   { en: 'Fruit', ee: 'puuvili' },
+  { en: 'Cute', ee: 'armas' },
   { en: 'good morning', ee: 'Tere hommikust' },
   { en: 'good day', ee: 'Tere paevast' },
   { en: 'good afternoon/evening', ee: 'Tere õhtust' },
@@ -78,6 +78,18 @@ const vocabulary = [
   { en: 'see you!', ee: 'Kohtumiseni ' },
   { en: 'before', ee: 'enne' },
   { en: 'after', ee: 'perast' },
+  { en: 'January', ee: 'Jaanuar' },
+  { en: 'February', ee: 'Veebruar' },
+  { en: 'March', ee: 'Märts' },
+  { en: 'April', ee: 'Aprill' },
+  { en: 'May', ee: 'Mai' },
+  { en: 'June', ee: 'Juuni' },
+  { en: 'July', ee: 'Juuli' },
+  { en: 'August', ee: 'August' },
+  { en: 'September', ee: 'September' },
+  { en: 'October', ee: 'Oktoober' },
+  { en: 'Novermber', ee: 'November' },
+  { en: 'December', ee: 'Detsember' },
 ];
 
 function addOpacityEffect(element) {
