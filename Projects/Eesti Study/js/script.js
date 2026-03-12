@@ -2,6 +2,7 @@
 
 const verbsGridContainerEL = document.querySelector(`.verbs-grid-container`);
 const wordHidden = document.querySelectorAll(`.word-hidden`);
+const gridContainer = document.querySelector(`.verbs-grid-container`);
 
 function addOpacityEffect(element) {
   element.addEventListener(`click`, function () {
@@ -12,9 +13,8 @@ function addOpacityEffect(element) {
   });
 }
 
-// *****************************
-/*
- */
+// fetch the json and add the words to the html
+
 fetch('./js/vocabulary.json')
   .then(res => res.json())
   .then(data => {
@@ -24,14 +24,9 @@ fetch('./js/vocabulary.json')
     <div class="hidden-box">
     <span class="word-hidden word">${pair.ee}</span>
     </div>`;
-
       verbsGridContainerEL.insertAdjacentHTML('beforeend', html);
     });
-  });
 
-fetch('./js/vocabulary.json')
-  .then(res => res.json())
-  .then(data => {
     data.forEach(pair => {
       const html = `
           <div class="word-box hidden-box">
@@ -39,39 +34,12 @@ fetch('./js/vocabulary.json')
           </div>
           <div class="word-box visible-box">
           <p class="word-visible word">${pair.ee}</p>
-          </div>
-  `;
+          </div>`;
       verbsGridContainerEL.insertAdjacentHTML('beforeend', html);
     });
   });
-// ******************************
 
-/*
-vocabulary.forEach(pair => {
-  const html = `
-  <p class="word-visible word">${pair.en}</p>
-  <div class="hidden-box">
-  <span class="word-hidden word">${pair.ee}</span>
-  </div>`;
-  
-  verbsGridContainerEL.insertAdjacentHTML('beforeend', html);
-});
-
-vocabulary.forEach(pair => {
-  const html = `
-  <div class="word-box hidden-box">
-  <p class="word-hidden word">${pair.en}</p>
-  </div>
-  <div class="word-box visible-box">
-  <p class="word-visible word">${pair.ee}</p>
-  </div>
-  `;
-  verbsGridContainerEL.insertAdjacentHTML('beforeend', html);
-});
-*/
-
-const gridContainer = document.querySelector(`.verbs-grid-container`);
-
+// Shows and hides the hidden word for mobile support
 if (gridContainer) {
   const wordHidden = gridContainer.querySelectorAll('.word-hidden');
 
@@ -89,5 +57,3 @@ if (gridContainer) {
 } else {
   console.log('class not found');
 }
-
-// console.log("hello world");

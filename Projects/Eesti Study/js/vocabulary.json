@@ -19,7 +19,9 @@
   { "en": "To wait", "ee": "ootama, oodata, ootan" },
   { "en": "To fly", "ee": "lendama, lennata, lendan" },
   { "en": "To live", "ee": "Elama, Elada, Ela" },
-  { "en": "to read", "ee": "Lugema, lugeda, loe" },
+  { "en": "To read", "ee": "Lugema, lugeda, loe" },
+  { "en": "To write", "ee": "kirjutama, kirjutada, kirjutan" },
+  { "en": "To sleep", "ee": "magama" },
   { "en": "Year", "ee": "aasta" },
   { "en": "season", "ee": "aastajad" },
   { "en": "month", "ee": "kuud" },
@@ -108,7 +110,6 @@
   { "en": "dinner", "ee": "õhtusöök" },
   { "en": "first name", "ee": "eesnimi" },
   { "en": "television", "ee": "televiisorit" },
-  { "en": "to sleep", "ee": "magama" },
   { "en": "It is sunny", "ee": "Päike paistab" },
   { "en": "It is raining", "ee": "Vihma sajab" },
   { "en": "It is snowing", "ee": "Lund sajab" },
@@ -127,7 +128,6 @@
   { "en": "hot", "ee": "palav" },
   { "en": "warm", "ee": "soe" },
   { "en": "cold", "ee": "külm" },
-  { "en": "", "ee": "kuidas palun" },
   {
     "en": "nice to meet you",
     "ee": "mis on sinu nimi, mis sinu nimi onmeeldib tutvuda"
@@ -159,6 +159,5 @@
   { "en": "still", "ee": "alles" },
   { "en": "at all", "ee": "üldse" },
   { "en": "only", "ee": "ailult" },
-  { "en": "to write", "ee": "kirjutama, kirjutada, kirjutan" },
   { "en": "yes i do", "ee": "olen küll" }
 ]
