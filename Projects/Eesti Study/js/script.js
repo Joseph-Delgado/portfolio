@@ -179,50 +179,50 @@ function addOpacityEffect(element) {
 
 // fetch the json and add the words to the html
 /*
+ */
 fetch('./js/vocabulary.json')
-.then(res => res.json())
-.then(data => {
-  data.forEach(pair => {
-    const html = `
+  .then(res => res.json())
+  .then(data => {
+    data.forEach(pair => {
+      const html = `
     <p class="word-visible word">${pair.en}</p>
     <div class="hidden-box">
     <span class="word-hidden word">${pair.ee}</span>
     </div>`;
-    verbsGridContainerEL.insertAdjacentHTML('beforeend', html);
-  });
-  
-  data.forEach(pair => {
-    const html = `
+      verbsGridContainerEL.insertAdjacentHTML('beforeend', html);
+    });
+
+    data.forEach(pair => {
+      const html = `
     <div class="word-box hidden-box">
     <p class="word-hidden word">${pair.en}</p>
     </div>
     <div class="word-box visible-box">
     <p class="word-visible word">${pair.ee}</p>
     </div>`;
-    verbsGridContainerEL.insertAdjacentHTML('beforeend', html);
+      verbsGridContainerEL.insertAdjacentHTML('beforeend', html);
+    });
   });
-});
-*/
 
-vocabulary.forEach(pair => {
-  const html = `
-    <p class="word-visible word">${pair.en}</p>
-    <div class="hidden-box">
-    <span class="word-hidden word">${pair.ee}</span>
-    </div>`;
-  verbsGridContainerEL.insertAdjacentHTML('beforeend', html);
-});
+// vocabulary.forEach(pair => {
+//   const html = `
+//     <p class="word-visible word">${pair.en}</p>
+//     <div class="hidden-box">
+//     <span class="word-hidden word">${pair.ee}</span>
+//     </div>`;
+//   verbsGridContainerEL.insertAdjacentHTML('beforeend', html);
+// });
 
-vocabulary.forEach(pair => {
-  const html = `
-    <div class="word-box hidden-box">
-    <p class="word-hidden word">${pair.en}</p>
-    </div>
-    <div class="word-box visible-box">
-    <p class="word-visible word">${pair.ee}</p>
-    </div>`;
-  verbsGridContainerEL.insertAdjacentHTML('beforeend', html);
-});
+// vocabulary.forEach(pair => {
+//   const html = `
+//     <div class="word-box hidden-box">
+//     <p class="word-hidden word">${pair.en}</p>
+//     </div>
+//     <div class="word-box visible-box">
+//     <p class="word-visible word">${pair.ee}</p>
+//     </div>`;
+//   verbsGridContainerEL.insertAdjacentHTML('beforeend', html);
+// });
 
 // Shows and hides the hidden word for mobile support
 if (gridContainer) {
