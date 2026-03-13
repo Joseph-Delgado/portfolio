@@ -178,8 +178,7 @@ function addOpacityEffect(element) {
 }
 
 // fetch the json and add the words to the html
-/*
- */
+
 fetch('./js/vocabulary.json')
   .then(res => res.json())
   .then(data => {
@@ -202,6 +201,25 @@ fetch('./js/vocabulary.json')
     </div>`;
       verbsGridContainerEL.insertAdjacentHTML('beforeend', html);
     });
+
+    // add click listener
+    if (gridContainer) {
+      const wordHidden = gridContainer.querySelectorAll('.word-hidden');
+
+      wordHidden.forEach(hiddenCell => {
+        hiddenCell.addEventListener('click', function (event) {
+          event.stopPropagation();
+
+          hiddenCell.style.opacity = 1;
+
+          setTimeout(() => {
+            hiddenCell.style.opacity = 0;
+          }, 3000);
+        });
+      });
+    } else {
+      console.log('class not found');
+    }
   });
 
 // vocabulary.forEach(pair => {
@@ -225,20 +243,20 @@ fetch('./js/vocabulary.json')
 // });
 
 // Shows and hides the hidden word for mobile support
-if (gridContainer) {
-  const wordHidden = gridContainer.querySelectorAll('.word-hidden');
+// if (gridContainer) {
+//   const wordHidden = gridContainer.querySelectorAll('.word-hidden');
 
-  wordHidden.forEach(hiddenCell => {
-    hiddenCell.addEventListener('click', function (event) {
-      event.stopPropagation();
+//   wordHidden.forEach(hiddenCell => {
+//     hiddenCell.addEventListener('click', function (event) {
+//       event.stopPropagation();
 
-      hiddenCell.style.opacity = 1;
+//       hiddenCell.style.opacity = 1;
 
-      setTimeout(() => {
-        hiddenCell.style.opacity = 0;
-      }, 3000);
-    });
-  });
-} else {
-  console.log('class not found');
-}
+//       setTimeout(() => {
+//         hiddenCell.style.opacity = 0;
+//       }, 3000);
+//     });
+//   });
+// } else {
+//   console.log('class not found');
+// }
