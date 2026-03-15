@@ -158,6 +158,17 @@
   { "en": "unfortunately", "ee": "kahjuks" },
   { "en": "still", "ee": "alles" },
   { "en": "at all", "ee": "üldse" },
-  { "en": "only", "ee": "ailult" },
-  { "en": "yes i do", "ee": "olen küll" }
+  { "en": "only", "ee": "Ainult" },
+  { "en": "yes i do", "ee": "olen küll" },
+  { "en": "Thanks", "ee": "Äitah" },
+  { "en": "Thank you", "ee": "Tänan" },
+  { "en": "Thank you very much", "ee": "Suur tänu - Suur äitah" },
+  { "en": "Here you are", "ee": "Palun" },
+  { "en": "Don't mention it", "ee": "Pole tänu väärt" },
+  { "en": "Excuse me!", "ee": "Vabandage! / Vabanda" },
+  { "en": "Sorry!", "ee": "Vabandust" },
+  { "en": "Please forgive me!", "ee": "Anna / Andke andeks!" },
+  { "en": "It's nothing", "ee": "Pole midagi" },
+  { "en": "You're welcome!", "ee": "Võta / võtke heaks!" },
+  { "en": "Enjoy your meal! / Bon appetit!", "ee": "Head isu!" }
 ]
