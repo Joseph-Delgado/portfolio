@@ -185,5 +185,13 @@
   { "en": "how long", "ee": "kui kaua" },
   { "en": "how often", "ee": "kui tihti" },
   { "en": "how big", "ee": "kui suur" },
-  { "en": "how old", "ee": "kui vana" }
+  { "en": "how old", "ee": "kui vana" },
+  { "en": "outside", "ee": "väljas" },
+  { "en": "house", "ee": "maja" },
+  { "en": "table", "ee": "laud" },
+  { "en": "book", "ee": "raamat" },
+  { "en": "student", "ee": "õpilane" },
+  { "en": "child", "ee": "laps" },
+  { "en": "quickly", "ee": "kiiresti" },
+  { "en": "drink", "ee": "jooma, joonud, joon" }
 ]
