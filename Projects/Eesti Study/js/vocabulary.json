@@ -170,5 +170,20 @@
   { "en": "Please forgive me!", "ee": "Anna / Andke andeks!" },
   { "en": "It's nothing", "ee": "Pole midagi" },
   { "en": "You're welcome!", "ee": "Võta / võtke heaks!" },
-  { "en": "Enjoy your meal! / Bon appetit!", "ee": "Head isu!" }
+  { "en": "Enjoy your meal! / Bon appetit!", "ee": "Head isu!" },
+  { "en": "Bless you!", "ee": "Tervist " },
+  { "en": "who", "ee": "kes" },
+  { "en": "what", "ee": "mis" },
+  { "en": "when", "ee": "millal" },
+  { "en": "where", "ee": "kus" },
+  { "en": "where to", "ee": "kuhu" },
+  { "en": "why", "ee": "miks" },
+  { "en": "how", "ee": "kuidas" },
+  { "en": "how much", "ee": "kui palju" },
+  { "en": "how many", "ee": "kui palju / mitu" },
+  { "en": "which / What kind", "ee": "milline" },
+  { "en": "how long", "ee": "kui kaua" },
+  { "en": "how often", "ee": "kui tihti" },
+  { "en": "how big", "ee": "kui suur" },
+  { "en": "how old", "ee": "kui vana" }
 ]
