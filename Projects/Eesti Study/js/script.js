@@ -29,6 +29,7 @@ const weatherGridContainerEL = document.querySelector(
   `.weather-grid-container`,
 );
 
+///////////////////////////////////////////////////////////////
 const wordHidden = document.querySelectorAll(`.word-hidden`);
 
 function addOpacityEffect(element) {
@@ -69,6 +70,26 @@ const populateList = function (wordType) {
       .insertAdjacentHTML('beforeend', html);
     // verbsGridContainerEL.insertAdjacentHTML('beforeend', html);
   });
+
+  if (document.querySelector(`.${typeValue}-grid-container`)) {
+    const wordHidden = document
+      .querySelector(`.${typeValue}-grid-container`)
+      .querySelectorAll('.word-hidden');
+
+    wordHidden.forEach(hiddenCell => {
+      hiddenCell.addEventListener('click', function (event) {
+        event.stopPropagation();
+
+        hiddenCell.style.opacity = 1;
+
+        setTimeout(() => {
+          hiddenCell.style.opacity = 0;
+        }, 3000);
+      });
+    });
+  } else {
+    console.log('class not found');
+  }
 };
 
 // Fetch and Store
