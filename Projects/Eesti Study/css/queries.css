@@ -24,6 +24,10 @@
   .main-nav-list {
     gap: 1.2rem 0.8rem;
   }
+
+  .container-back-to-top {
+    justify-self: center;
+  }
 }
 
 /* ***************** */
