@@ -29,6 +29,10 @@ const weatherGridContainerEL = document.querySelector(
   `.weather-grid-container`,
 );
 
+const sectionWordsGenerelEL = document.querySelectorAll(
+  `.section-words-general`,
+);
+
 ///////////////////////////////////////////////////////////////
 const wordHidden = document.querySelectorAll(`.word-hidden`);
 
@@ -47,9 +51,9 @@ const populateList = function (wordType) {
   // console.log(typeof typeValue);
   wordType.forEach(wordObject => {
     const html = `
-    <p class="word-visible word">${wordObject.en}</p>
+    <p class="word-visible word grid-item">${wordObject.en}</p>
     <div class="hidden-box">
-    <span class="word-hidden word">${wordObject.ee}</span>
+    <p class="word-hidden word grid-item">${wordObject.ee}</p>
     </div>`;
     document
       .querySelector(`.${typeValue}-grid-container`)
@@ -59,11 +63,11 @@ const populateList = function (wordType) {
 
   wordType.forEach(wordObject => {
     const html = `
-    <div class="word-box hidden-box">
-    <p class="word-hidden word">${wordObject.en}</p>
+    <div class="word-box hidden-box ">
+    <p class="word-hidden word grid-item">${wordObject.en}</p>
     </div>
     <div class="word-box visible-box">
-    <p class="word-visible word">${wordObject.ee}</p>
+    <p class="word-visible word grid-item">${wordObject.ee}</p>
     </div>`;
     document
       .querySelector(`.${typeValue}-grid-container`)
@@ -214,6 +218,23 @@ fetchAndStoreVocabulary();
     word.type.includes(`toBeSorted`),
   );
   populateList(toBeSorted);
+})();
+
+(async () => {
+  const backToTopBtn = function () {
+    const html = `
+    <div class="container-back-to-top">
+    <a href="#" class="btn-back-to-top">Back to Top</a>
+    </div>`;
+    const sectionWordsGenerals = document.querySelectorAll(
+      '.section-words-general',
+    );
+
+    sectionWordsGenerals.forEach(section => {
+      section.insertAdjacentHTML('beforeend', html);
+    });
+  };
+  backToTopBtn();
 })();
 
 ////////////////////////////////////////
