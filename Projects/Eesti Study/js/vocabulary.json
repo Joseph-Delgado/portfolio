@@ -110,11 +110,7 @@
     "ee": "Saage tuttavaks",
     "type": "phrase"
   },
-  {
-    "en": "nice to meet you",
-    "ee": "mis on sinu nimi, mis sinu nimi onmeeldib tutvuda",
-    "type": "phrase"
-  },
+  { "en": "nice to meet you", "ee": "meeldib tutvuda", "type": "phrase" },
   {
     "en": "let me introduce you - this is my colleague [name]",
     "ee": "las/lubage ma tutvustan teid, see on minu kolleeg [name]",
@@ -126,7 +122,7 @@
     "ee": "pole tänu väärt",
     "type": "phrase"
   },
-  { "en": "ill bring it right away", "ee": "kohe toon", "type": "phrase" },
+  { "en": "I'll bring it right away", "ee": "kohe toon", "type": "phrase" },
   { "en": "wonderful news", "ee": "suurepärane uudis", "type": "phrase" },
   { "en": "don't worry", "ee": "ära muretse", "type": "phrase" },
   { "en": "what a pity", "ee": "kui kahju", "type": "phrase" },
