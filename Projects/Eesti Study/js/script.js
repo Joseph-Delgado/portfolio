@@ -220,6 +220,15 @@ fetchAndStoreVocabulary();
   populateList(toBeSorted);
 })();
 
+// new
+(async () => {
+  await fetchAndStoreVocabulary();
+  const newlyAdded = vocabularyArr.filter(word =>
+    word.type.includes(`newlyAdded`),
+  );
+  populateList(newlyAdded);
+})();
+
 (async () => {
   const backToTopBtn = function () {
     const html = `
