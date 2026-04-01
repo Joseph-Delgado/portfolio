@@ -229,6 +229,15 @@ fetchAndStoreVocabulary();
   populateList(newlyAdded);
 })();
 
+// adjective
+(async () => {
+  await fetchAndStoreVocabulary();
+  const adjective = vocabularyArr.filter(word =>
+    word.type.includes(`adjective`),
+  );
+  populateList(adjective);
+})();
+
 (async () => {
   const backToTopBtn = function () {
     const html = `
