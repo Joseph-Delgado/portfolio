@@ -1,5 +1,5 @@
 [
-  { "en": "Cute", "ee": "armas", "type": "smallWordsTwo" },
+  { "en": "Cute", "ee": "armas", "type": "adjective" },
   { "en": "quickly", "ee": "kiiresti", "type": "smallWordsTwo" },
   { "en": "emotions", "ee": "emootsioonid", "type": "emotion" },
   { "en": "happy", "ee": "õnnelik", "type": "emotion" },
@@ -483,5 +483,305 @@
     "en": "to love",
     "ee": "armastama, armastan, armastada",
     "type": "newlyAdded"
+  },
+  { "en": "big", "ee": "suur, suure, suurt / suuri", "type": "newlyAdded" },
+  {
+    "en": "small",
+    "ee": "väike, väikse, väikest / väikseid",
+    "type": "newlyAdded"
+  },
+  { "en": "new", "ee": "uus, uue, uut / uusi", "type": "newlyAdded" },
+  { "en": "old", "ee": "vana, vana, vana / vanu", "type": "newlyAdded" },
+  {
+    "en": "high",
+    "ee": "kõrge, kõrge, kõrget / kõrgeid",
+    "type": "newlyAdded"
+  },
+  {
+    "en": "deep",
+    "ee": "sügav, sügava, sügavat / sügavaid",
+    "type": "newlyAdded"
+  },
+  {
+    "en": "low",
+    "ee": "madal, madala, madalat / madalaid",
+    "type": "newlyAdded"
+  },
+  { "en": "good", "ee": "hea, hea, head / häid", "type": "newlyAdded" },
+  { "en": "bad", "ee": "halb, halva, halba / halbu", "type": "newlyAdded" },
+  {
+    "en": "expensive",
+    "ee": "kallis, kalli, kallist / kalleid",
+    "type": "newlyAdded"
+  },
+  {
+    "en": "cheap",
+    "ee": "odav, odava, odavat / odavaid",
+    "type": "newlyAdded"
+  },
+  { "en": "broad", "ee": "lai, laia, laia / laiu", "type": "newlyAdded" },
+  {
+    "en": "narrow",
+    "ee": "kitsas, kitsa, kitsast / kitsaid",
+    "type": "newlyAdded"
+  },
+  {
+    "en": "sweet",
+    "ee": "magus, magusa, magusat / magusaid",
+    "type": "newlyAdded"
+  },
+  {
+    "en": "bitter",
+    "ee": "mõru, mõruda, mõrudat / mõrudaid",
+    "type": "newlyAdded"
+  },
+  {
+    "en": "salty",
+    "ee": "soolane, soolase, soolast / soolaseid",
+    "type": "newlyAdded"
+  },
+  {
+    "en": "dark",
+    "ee": "pime, pimeda, pimedat / pimedaid",
+    "type": "newlyAdded"
+  },
+  {
+    "en": "light",
+    "ee": "valge, valge, valget / valgeid",
+    "type": "newlyAdded"
+  },
+  { "en": "cold", "ee": "külm, külma, külma / külmi", "type": "newlyAdded" },
+  { "en": "warm", "ee": "soe, sooja, sooja / sooje", "type": "newlyAdded" },
+  {
+    "en": "dangerous",
+    "ee": "ohtlik, ohtliku, ohtlikku / ohtlikke",
+    "type": "newlyAdded"
+  },
+  {
+    "en": "safe",
+    "ee": "turvaline, turvalise, turvalist / turvalisi",
+    "type": "newlyAdded"
+  },
+  { "en": "dirty", "ee": "must, musta, musta / musti", "type": "newlyAdded" },
+  {
+    "en": "clean",
+    "ee": "puhas, puhta, puhast / puhtaid",
+    "type": "newlyAdded"
+  },
+  {
+    "en": "important",
+    "ee": "oluline, olulise, olulist / olulisi",
+    "type": "newlyAdded"
+  },
+  {
+    "en": "interesting",
+    "ee": "huvitav, huvitava, huvitavat / huvitavaid",
+    "type": "newlyAdded"
+  },
+  {
+    "en": "boring",
+    "ee": "igav, igava, igavat / igavaid",
+    "type": "newlyAdded"
+  },
+  {
+    "en": "first",
+    "ee": "esimene, esimese, esimest / esimesi",
+    "type": "newlyAdded"
+  },
+  {
+    "en": "next",
+    "ee": "järgmine, järgmise, järgmist / järgmisi",
+    "type": "newlyAdded"
+  },
+  {
+    "en": "last",
+    "ee": "viimane, viimase, viimast / viimaseid",
+    "type": "newlyAdded"
+  },
+  {
+    "en": "light, easy",
+    "ee": "kerge, kerge, kerget / kergeid",
+    "type": "newlyAdded"
+  },
+  {
+    "en": "heavy, hard",
+    "ee": "raske, raske, rasket / raskeid",
+    "type": "newlyAdded"
+  },
+  {
+    "en": "comfortable",
+    "ee": "mugav, mugava, mugavat / mugavaid",
+    "type": "newlyAdded"
+  },
+  {
+    "en": "uncomfortable",
+    "ee": "ebamugav, ebamugava, ebamugavat / ebamugavaid",
+    "type": "newlyAdded"
+  },
+  {
+    "en": "special",
+    "ee": "eriline, erilise, erilist / erilisi",
+    "type": "newlyAdded"
+  },
+  {
+    "en": "usual",
+    "ee": "tavaline, tavalise, tavalist / tavalisi",
+    "type": "newlyAdded"
+  },
+  {
+    "en": "different",
+    "ee": "erinev, erineva, erinevat / erinevaid",
+    "type": "newlyAdded"
+  },
+  {
+    "en": "similar",
+    "ee": "sarnane, sarnase, sarnast / sarnaseid",
+    "type": "newlyAdded"
+  },
+  { "en": "big", "ee": "suur, suure, suurt / suuri", "type": "adjective" },
+  {
+    "en": "small",
+    "ee": "väike, väikse, väikest / väikseid",
+    "type": "adjective"
+  },
+  { "en": "new", "ee": "uus, uue, uut / uusi", "type": "adjective" },
+  { "en": "old", "ee": "vana, vana, vana / vanu", "type": "adjective" },
+  { "en": "high", "ee": "kõrge, kõrge, kõrget / kõrgeid", "type": "adjective" },
+  {
+    "en": "deep",
+    "ee": "sügav, sügava, sügavat / sügavaid",
+    "type": "adjective"
+  },
+  {
+    "en": "low",
+    "ee": "madal, madala, madalat / madalaid",
+    "type": "adjective"
+  },
+  { "en": "good", "ee": "hea, hea, head / häid", "type": "adjective" },
+  { "en": "bad", "ee": "halb, halva, halba / halbu", "type": "adjective" },
+  {
+    "en": "expensive",
+    "ee": "kallis, kalli, kallist / kalleid",
+    "type": "adjective"
+  },
+  { "en": "cheap", "ee": "odav, odava, odavat / odavaid", "type": "adjective" },
+  { "en": "broad", "ee": "lai, laia, laia / laiu", "type": "adjective" },
+  {
+    "en": "narrow",
+    "ee": "kitsas, kitsa, kitsast / kitsaid",
+    "type": "adjective"
+  },
+  {
+    "en": "sweet",
+    "ee": "magus, magusa, magusat / magusaid",
+    "type": "adjective"
+  },
+  {
+    "en": "bitter",
+    "ee": "mõru, mõruda, mõrudat / mõrudaid",
+    "type": "adjective"
+  },
+  {
+    "en": "salty",
+    "ee": "soolane, soolase, soolast / soolaseid",
+    "type": "adjective"
+  },
+  {
+    "en": "dark",
+    "ee": "pime, pimeda, pimedat / pimedaid",
+    "type": "adjective"
+  },
+  {
+    "en": "light",
+    "ee": "valge, valge, valget / valgeid",
+    "type": "adjective"
+  },
+  { "en": "cold", "ee": "külm, külma, külma / külmi", "type": "adjective" },
+  { "en": "warm", "ee": "soe, sooja, sooja / sooje", "type": "adjective" },
+  {
+    "en": "dangerous",
+    "ee": "ohtlik, ohtliku, ohtlikku / ohtlikke",
+    "type": "adjective"
+  },
+  {
+    "en": "safe",
+    "ee": "turvaline, turvalise, turvalist / turvalisi",
+    "type": "adjective"
+  },
+  { "en": "dirty", "ee": "must, musta, musta / musti", "type": "adjective" },
+  {
+    "en": "clean",
+    "ee": "puhas, puhta, puhast / puhtaid",
+    "type": "adjective"
+  },
+  {
+    "en": "important",
+    "ee": "oluline, olulise, olulist / olulisi",
+    "type": "adjective"
+  },
+  {
+    "en": "interesting",
+    "ee": "huvitav, huvitava, huvitavat / huvitavaid",
+    "type": "adjective"
+  },
+  {
+    "en": "boring",
+    "ee": "igav, igava, igavat / igavaid",
+    "type": "adjective"
+  },
+  {
+    "en": "first",
+    "ee": "esimene, esimese, esimest / esimesi",
+    "type": "adjective"
+  },
+  {
+    "en": "next",
+    "ee": "järgmine, järgmise, järgmist / järgmisi",
+    "type": "adjective"
+  },
+  {
+    "en": "last",
+    "ee": "viimane, viimase, viimast / viimaseid",
+    "type": "adjective"
+  },
+  {
+    "en": "light, easy",
+    "ee": "kerge, kerge, kerget / kergeid",
+    "type": "adjective"
+  },
+  {
+    "en": "heavy, hard",
+    "ee": "raske, raske, rasket / raskeid",
+    "type": "adjective"
+  },
+  {
+    "en": "comfortable",
+    "ee": "mugav, mugava, mugavat / mugavaid",
+    "type": "adjective"
+  },
+  {
+    "en": "uncomfortable",
+    "ee": "ebamugav, ebamugava, ebamugavat / ebamugavaid",
+    "type": "adjective"
+  },
+  {
+    "en": "special",
+    "ee": "eriline, erilise, erilist / erilisi",
+    "type": "adjective"
+  },
+  {
+    "en": "usual",
+    "ee": "tavaline, tavalise, tavalist / tavalisi",
+    "type": "adjective"
+  },
+  {
+    "en": "different",
+    "ee": "erinev, erineva, erinevat / erinevaid",
+    "type": "adjective"
+  },
+  {
+    "en": "similar",
+    "ee": "sarnane, sarnase, sarnast / sarnaseid",
+    "type": "adjective"
   }
 ]
