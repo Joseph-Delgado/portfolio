@@ -238,6 +238,13 @@ fetchAndStoreVocabulary();
   populateList(adjective);
 })();
 
+// clothes
+(async () => {
+  await fetchAndStoreVocabulary();
+  const clothes = vocabularyArr.filter(word => word.type.includes(`clothes`));
+  populateList(clothes);
+})();
+
 (async () => {
   const backToTopBtn = function () {
     const html = `

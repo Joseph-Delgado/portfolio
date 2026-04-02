@@ -783,5 +783,96 @@
     "en": "similar",
     "ee": "sarnane, sarnase, sarnast / sarnaseid",
     "type": "adjective"
-  }
+  },
+  { "en": "clothes", "ee": "riided", "type": "clothes" },
+  { "en": "shirt", "ee": "särk, särgi, särki / särke", "type": "clothes" },
+  { "en": "blouse", "ee": "pluus, pluusi, pluusi / pluuse", "type": "clothes" },
+  {
+    "en": "pullover",
+    "ee": "džemper, džempri, džemprit / džempreid",
+    "type": "clothes"
+  },
+  {
+    "en": "jersey, cardigan",
+    "ee": "kampsun, kampsuni, kampsunit / kampsuneid",
+    "type": "clothes"
+  },
+  { "en": "jacket", "ee": "jakk, jaki, jakki / jakke", "type": "clothes" },
+  {
+    "en": "(warm) jacket",
+    "ee": "jope, jope, jopet / jopesid",
+    "type": "clothes"
+  },
+  {
+    "en": "coat",
+    "ee": "mantel, mantli, mantlit / mantleid",
+    "type": "clothes"
+  },
+  { "en": "dress", "ee": "kleit, kleidi, kleiti / kleite", "type": "clothes" },
+  {
+    "en": "skirt",
+    "ee": "seelik, seeliku, seelikut / seelikuid",
+    "type": "clothes"
+  },
+  { "en": "trousers", "ee": "püksid, pükste, pükse", "type": "clothes" },
+  {
+    "en": "shorts",
+    "ee": "lühikesed püksid, lühikeste pükste, lühikesi pükse",
+    "type": "clothes"
+  },
+  { "en": "jeans", "ee": "teksad, teksaste, tekasasid", "type": "clothes" },
+  { "en": "leggings", "ee": "retuusid, retuuside, retuuse", "type": "clothes" },
+  { "en": "sock", "ee": "sokk, soki, sokki / sokke", "type": "clothes" },
+  { "en": "shoe", "ee": "king, kinga, kinga / kingi", "type": "clothes" },
+  { "en": "boot", "ee": "saabas, saapa, saabast / saapaid", "type": "clothes" },
+  {
+    "en": "sneaker",
+    "ee": "tennis, tennise, tennist / tenniseid",
+    "type": "clothes"
+  },
+  {
+    "en": "running shoe",
+    "ee": "toss, tossu, tossu / tossusid",
+    "type": "clothes"
+  },
+  {
+    "en": "tracksuit",
+    "ee": "dressid, dresside, dressisid",
+    "type": "clothes"
+  },
+  {
+    "en": "swimsuit",
+    "ee": "trikoo, trikoo, trikood / trikoosid",
+    "type": "clothes"
+  },
+  {
+    "en": "swimming trunks",
+    "ee": "ujumispüksid, ujumispükste, ujumispükse",
+    "type": "clothes"
+  },
+  { "en": "hat", "ee": "müts, mütsi, mütsi / mütse", "type": "clothes" },
+  {
+    "en": "glove",
+    "ee": "kinnas, kinda, kinnast / kindaid",
+    "type": "clothes"
+  },
+  { "en": "scarf", "ee": "sall, salli, salli / salle", "type": "clothes" },
+  { "en": "belt", "ee": "rihm, rihma, rihma / rihmasid", "type": "clothes" },
+  { "en": "glasses", "ee": "prillid, prillide, prille", "type": "clothes" },
+  {
+    "en": "necklace",
+    "ee": "kaelakee, kaelakee, kaelakeed / kaelakeesid",
+    "type": "clothes"
+  },
+  {
+    "en": "earring",
+    "ee": "kõrvarõngas, kõrvarõnga, kõrvarõngast / kõrvarõngaid",
+    "type": "clothes"
+  },
+  {
+    "en": "ring",
+    "ee": "sõrmus, sõrmuse, sõrmust / sõrmuseid",
+    "type": "clothes"
+  },
+  { "en": "blazer", "ee": "pintsak", "type": "clothes" }
 ]
