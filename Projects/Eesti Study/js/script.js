@@ -254,6 +254,20 @@ fetchAndStoreVocabulary();
   populateList(clothes);
 })();
 
+// pronouns
+(async () => {
+  await fetchAndStoreVocabulary();
+  const pronouns = vocabularyArr.filter(word => word.type.includes(`pronouns`));
+  populateList(pronouns);
+})();
+
+// beginner
+(async () => {
+  await fetchAndStoreVocabulary();
+  const beginner = vocabularyArr.filter(word => word.type.includes(`beginner`));
+  populateList(beginner);
+})();
+
 (async () => {
   const backToTopBtn = function () {
     const html = `
