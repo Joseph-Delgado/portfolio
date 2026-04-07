@@ -165,6 +165,15 @@ fetchAndStoreVocabulary();
   populateList(time);
 })();
 
+// Time
+(async () => {
+  await fetchAndStoreVocabulary();
+  const daysOfWeek = vocabularyArr.filter(word =>
+    word.type.includes(`daysOfWeek`),
+  );
+  populateList(daysOfWeek);
+})();
+
 // Phrases
 (async () => {
   await fetchAndStoreVocabulary();
