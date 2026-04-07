@@ -1,643 +1,5 @@
 [
   { "en": "Cute", "ee": "armas", "type": "adjective" },
-  { "en": "quickly", "ee": "kiiresti", "type": "smallWordsTwo" },
-  { "en": "emotions", "ee": "emootsioonid", "type": "emotion" },
-  { "en": "happy", "ee": "õnnelik", "type": "emotion" },
-  { "en": "happy", "ee": "rõõmus", "type": "emotion" },
-  { "en": "Fruit", "ee": "puuvili", "type": "food" },
-  { "en": "meal", "ee": "sööki", "type": "food" },
-  { "en": "breakfast", "ee": "hommikusöök", "type": "food" },
-  { "en": "lunch", "ee": "lõunasöök", "type": "food" },
-  { "en": "dinner", "ee": "õhtusöök", "type": "food" },
-  { "en": "good morning", "ee": "Tere hommikust", "type": "greetingFarewell" },
-  { "en": "good day", "ee": "Tere päevast", "type": "greetingFarewell" },
-  {
-    "en": "good afternoon/evening",
-    "ee": "Tere õhtust",
-    "type": "greetingFarewell"
-  },
-  { "en": "hello", "ee": "Tere ", "type": "greetingFarewell" },
-  { "en": "hi", "ee": "Tervist ", "type": "greetingFarewell" },
-  { "en": "see you!", "ee": "Nägemiseni ", "type": "greetingFarewell" },
-  { "en": "see you! bye!", "ee": "Nägemist ", "type": "greetingFarewell" },
-  { "en": "goodbye!", "ee": "Head aega", "type": "greetingFarewell" },
-  {
-    "en": "Have a nice evening!",
-    "ee": "Head õhtut",
-    "type": "greetingFarewell"
-  },
-  { "en": "good night!", "ee": "Head ööd", "type": "greetingFarewell" },
-  { "en": "All the best!", "ee": "Kõike head", "type": "greetingFarewell" },
-  { "en": "see you!", "ee": "Kohtumiseni ", "type": "greetingFarewell" },
-  { "en": "who", "ee": "kes", "type": "interrogative" },
-  { "en": "what", "ee": "mis", "type": "interrogative" },
-  { "en": "when", "ee": "millal", "type": "interrogative" },
-  { "en": "where", "ee": "kus", "type": "interrogative" },
-  { "en": "where to", "ee": "kuhu", "type": "interrogative" },
-  { "en": "why", "ee": "miks", "type": "interrogative" },
-  { "en": "how", "ee": "kuidas", "type": "interrogative" },
-  { "en": "how much", "ee": "kui palju", "type": "interrogative" },
-  { "en": "how many", "ee": "kui palju / mitu", "type": "interrogative" },
-  { "en": "which / What kind", "ee": "milline", "type": "interrogative" },
-  { "en": "how long", "ee": "kui kaua", "type": "interrogative" },
-  { "en": "how often", "ee": "kui tihti", "type": "interrogative" },
-  { "en": "how big", "ee": "kui suur", "type": "interrogative" },
-  { "en": "how old", "ee": "kui vana", "type": "interrogative" },
-  { "en": "television", "ee": "televiisorit", "type": "items" },
-  { "en": "pen", "ee": "pastakas / pastapliiats", "type": "items" },
-  { "en": "table", "ee": "laud", "type": "items" },
-  { "en": "book", "ee": "raamat", "type": "items" },
-  { "en": "coworker", "ee": "töökaaslane", "type": "people" },
-  { "en": "neighbour", "ee": "naaber", "type": "people" },
-  { "en": "friend", "ee": "sõber", "type": "people" },
-  { "en": "good acquaintance", "ee": "hea tuttav", "type": "people" },
-  { "en": "boss", "ee": "ülemus", "type": "people" },
-  { "en": "student", "ee": "õpilane", "type": "people" },
-  { "en": "child", "ee": "laps", "type": "people" },
-  { "en": "sister", "ee": "õde, õe, õde / õdesid", "type": "people" },
-  { "en": "brother", "ee": "vend, venna, venda / vendi", "type": "people" },
-  {
-    "en": "Daughter",
-    "ee": "tütar, tütre, tütart / tütreid",
-    "type": "people"
-  },
-  { "en": "son", "ee": "poeg, poja, poega / poegasid", "type": "people" },
-  { "en": "aunt", "ee": "tädi, tädi, tädi / tädisid", "type": "people" },
-  { "en": "uncle", "ee": "onu, onu, onu / onusid", "type": "people" },
-  {
-    "en": "grandmother",
-    "ee": "vanaema, vanaema, vanaema / vanaemasid",
-    "type": "people"
-  },
-  {
-    "en": "grandfather",
-    "ee": "vanaisa, vanaisa, vanaisa / vanaisasid",
-    "type": "people"
-  },
-  {
-    "en": "grandchild",
-    "ee": "lapselaps, lapselapse, lapselast / lapselapsi",
-    "type": "people"
-  },
-  {
-    "en": "person human",
-    "ee": "inimene, inimese, inimest / inimesi",
-    "type": "people"
-  },
-  { "en": "child", "ee": "laps, lapse, last / lapsi", "type": "people" },
-  { "en": "woman", "ee": "naine, naise, naist / naisi", "type": "people" },
-  { "en": "man", "ee": "mees, mehe, meest / mehi", "type": "people" },
-  {
-    "en": "girl",
-    "ee": "tüdruk, tüdruku, tüdrukut / tüdrukuid",
-    "type": "people"
-  },
-  { "en": "boy", "ee": "poiss, poisi, poissi / poisse", "type": "people" },
-  { "en": "friend", "ee": "sõber, sõbra, sõpra / sõpru", "type": "people" },
-  {
-    "en": "colleague",
-    "ee": "kolleeg, kolleegi, kolleegi / kolleege",
-    "type": "people"
-  },
-  {
-    "en": "neighbour",
-    "ee": "naaber, naabri, naabrit / naabreid",
-    "type": "people"
-  },
-  { "en": "excuse me", "ee": "Vabandage mind", "type": "phrase" },
-  {
-    "en": "let's get acquinted (Plural)",
-    "ee": "Saage tuttavaks",
-    "type": "phrase"
-  },
-  { "en": "nice to meet you", "ee": "meeldib tutvuda", "type": "phrase" },
-  {
-    "en": "let me introduce you - this is my colleague [name]",
-    "ee": "las/lubage ma tutvustan teid, see on minu kolleeg [name]",
-    "type": "phrase"
-  },
-  { "en": "is it your boss", "ee": "kas on sinu ulemas", "type": "phrase" },
-  {
-    "en": "no thanks needed - no problem",
-    "ee": "pole tänu väärt",
-    "type": "phrase"
-  },
-  { "en": "ill bring it right away", "ee": "kohe toon", "type": "phrase" },
-  { "en": "wonderful news", "ee": "suurepärane uudis", "type": "phrase" },
-  { "en": "don't worry", "ee": "ära muretse", "type": "phrase" },
-  { "en": "what a pity", "ee": "kui kahju", "type": "phrase" },
-  { "en": "Thanks", "ee": "Äitah", "type": "politeness" },
-  { "en": "Thank you", "ee": "Tänan", "type": "politeness" },
-  {
-    "en": "Thank you very much",
-    "ee": "Suur tänu - Suur äitah",
-    "type": "politeness"
-  },
-  { "en": "Here you are", "ee": "Palun", "type": "politeness" },
-  { "en": "Don't mention it", "ee": "Pole tänu väärt", "type": "politeness" },
-  { "en": "Excuse me!", "ee": "Vabandage! / Vabanda", "type": "politeness" },
-  { "en": "Sorry!", "ee": "Vabandust", "type": "politeness" },
-  {
-    "en": "Please forgive me!",
-    "ee": "Anna / Andke andeks!",
-    "type": "politeness"
-  },
-  { "en": "It's nothing", "ee": "Pole midagi", "type": "politeness" },
-  {
-    "en": "You're welcome!",
-    "ee": "Võta / võtke heaks!",
-    "type": "politeness"
-  },
-  {
-    "en": "Enjoy your meal! / Bon appetit!",
-    "ee": "Head isu!",
-    "type": "politeness"
-  },
-  { "en": "Bless you!", "ee": "Tervist ", "type": "politeness" },
-  {
-    "en": "Teacher",
-    "ee": "õpetaja, õpetaja, õpetajat/õpetajaid",
-    "type": "profession"
-  },
-  { "en": "Doctor ", "ee": "Arst, arsti, arsti/arste", "type": "profession" },
-  {
-    "en": "Driver ",
-    "ee": "Autojuht, autojuhi, autojuhti / autojuhte",
-    "type": "profession"
-  },
-  {
-    "en": "Builder ",
-    "ee": "Ehita, ehitaja, ehitajat / ehitajaid",
-    "type": "profession"
-  },
-  {
-    "en": "Waiter",
-    "ee": "Ettekandja, ettekandja, ettekandjat / ettekandjaid",
-    "type": "profession"
-  },
-  {
-    "en": "Hairdresser",
-    "ee": "Juuksur, juuksuri, juuksurit / juuksureid",
-    "type": "profession"
-  },
-  { "en": "Chef", "ee": "Kokk, Koka, Kokka, / Kokki", "type": "profession" },
-  {
-    "en": "Cleaner",
-    "ee": "Koristaja, Koristaja, Koristajat / Koristajaid",
-    "type": "profession"
-  },
-  {
-    "en": "Translator",
-    "ee": "Tõlkija, Tõlkija, Tõlkijat - Tõlkijaid",
-    "type": "profession"
-  },
-  {
-    "en": "Writer",
-    "ee": "kirjanik, kirjaniku, kirjanikku / kirjanikke",
-    "type": "profession"
-  },
-  {
-    "en": "nanny",
-    "ee": "lapsehoidja, lapsehoidja, lapsehoidjat / lapsehoidjaid",
-    "type": "profession"
-  },
-  {
-    "en": "seller",
-    "ee": "müüja, müüja, müüjat / müüjaid",
-    "type": "profession"
-  },
-  {
-    "en": "police officer",
-    "ee": "politseinik, politseiniku, politseinikku / politseinikke",
-    "type": "profession"
-  },
-  {
-    "en": "journalist",
-    "ee": "ajakirjanik, ajakirjaniku, ajakirjanikku / ajakirjanikke",
-    "type": "profession"
-  },
-  {
-    "en": "artist",
-    "ee": "kunstnik, kunstniku, kunstnikku / kunstnikke",
-    "type": "profession"
-  },
-  {
-    "en": "programmer",
-    "ee": "programmeerija, programmeerija, programmeerijat / programmeerijaid",
-    "type": "profession"
-  },
-  {
-    "en": "singer",
-    "ee": "laulja, laulja, lauljat / lauljaid",
-    "type": "profession"
-  },
-  {
-    "en": "scientist",
-    "ee": "teadlane, teadlase, teadlast / teadlasi",
-    "type": "profession"
-  },
-  {
-    "en": "architect",
-    "ee": "arhitekt, arhitekti, arhitekti / arhitekte",
-    "type": "profession"
-  },
-  { "en": "Year", "ee": "aasta", "type": "time" },
-  { "en": "season", "ee": "aastajad", "type": "time" },
-  { "en": "month", "ee": "kuud", "type": "time" },
-  { "en": "Winter", "ee": "talv", "type": "time" },
-  { "en": "Spring", "ee": "kevad", "type": "time" },
-  { "en": "Summer", "ee": "suvi", "type": "time" },
-  { "en": "Autumn", "ee": "sügis", "type": "time" },
-  { "en": "January", "ee": "Jaanuar", "type": "time" },
-  { "en": "February", "ee": "Veebruar", "type": "time" },
-  { "en": "March", "ee": "Märts", "type": "time" },
-  { "en": "April", "ee": "Aprill", "type": "time" },
-  { "en": "May", "ee": "Mai", "type": "time" },
-  { "en": "June", "ee": "Juuni", "type": "time" },
-  { "en": "July", "ee": "Juuli", "type": "time" },
-  { "en": "August", "ee": "August", "type": "time" },
-  { "en": "September", "ee": "September", "type": "time" },
-  { "en": "October", "ee": "Oktoober", "type": "time" },
-  { "en": "Novermber", "ee": "November", "type": "time" },
-  { "en": "December", "ee": "Detsember", "type": "time" },
-  { "en": "time", "ee": "aeg", "type": "time" },
-  { "en": "clock", "ee": "kell", "type": "time" },
-  { "en": "an hour", "ee": "tund", "type": "time" },
-  { "en": "a minute", "ee": "minut", "type": "time" },
-  { "en": "a second", "ee": "sekund", "type": "time" },
-  { "en": "noon", "ee": "lõuna", "type": "time" },
-  { "en": "afternoon", "ee": "pärastlõouna", "type": "time" },
-  { "en": "quarter (clock)", "ee": "veerand", "type": "time" },
-  { "en": "Three times quarter (clock)", "ee": "kolmveerand", "type": "time" },
-  { "en": "half to (clock)", "ee": "pool", "type": "time" },
-  { "en": "to be", "ee": "olema, olen, olla", "type": "verbs" },
-  { "en": "to live", "ee": "elama, elan, elada", "type": "verbs" },
-  { "en": "to speak", "ee": "rääkima, räägin, rääkida", "type": "verbs" },
-  { "en": "to say", "ee": "ütlema, ütlen, öelda", "type": "verbs" },
-  {
-    "en": "to think, to have an opinion",
-    "ee": "arvama, arvan, arvata",
-    "type": "verbs"
-  },
-  { "en": "to know", "ee": "teadma, tean, teada", "type": "verbs" },
-  {
-    "en": "to understand",
-    "ee": "aru saama, saan aru, aru saada",
-    "type": "verbs"
-  },
-  { "en": "to go", "ee": "minema, lähen, minna", "type": "verbs" },
-  { "en": "to go (regularly)", "ee": "käima, käin, käia", "type": "verbs" },
-  {
-    "en": "to go by transport",
-    "ee": "sõitma, sõidan, sõita",
-    "type": "verbs"
-  },
-  { "en": "to come", "ee": "tulema, tulen, tulla", "type": "verbs" },
-  { "en": "to ask", "ee": "küsima, küsin, küsida", "type": "verbs" },
-  { "en": "to answer", "ee": "vastama, vastan, vastata", "type": "verbs" },
-  { "en": "to read", "ee": "lugema, loen, lugeda", "type": "verbs" },
-  { "en": "to write", "ee": "kirjutama, kirjutan, kirjutada", "type": "verbs" },
-  { "en": "to work", "ee": "töötama, töötan, töötada", "type": "verbs" },
-  { "en": "to sleep", "ee": "magama, magan, magada", "type": "verbs" },
-  { "en": "to eat", "ee": "sööma, söön, süüa", "type": "verbs" },
-  { "en": "to drink", "ee": "jooma, joon, juua", "type": "verbs" },
-  { "en": "to call", "ee": "helistama, helistan, helistada", "type": "verbs" },
-  { "en": "to want", "ee": "tahtma, tahan, tahta", "type": "verbs" },
-  { "en": "to do, to make", "ee": "tegema, teen, teha", "type": "verbs" },
-  { "en": "to like", "ee": "meeldima, meeldib, meeldida", "type": "verbs" },
-  { "en": "to love", "ee": "armastama, armastan, armastada", "type": "verbs" },
-  { "en": "To have to", "ee": "pidama, pean", "type": "verbs" },
-  {
-    "en": "To know how to do something",
-    "ee": "oskama, oskata, oskan",
-    "type": "verbs"
-  },
-  { "en": "To can, to be allowed", "ee": "võima, võin", "type": "verbs" },
-  {
-    "en": "To be able to, to receive",
-    "ee": "saama, saada, saan",
-    "type": "verbs"
-  },
-  { "en": "To offer", "ee": "pakkuma, pakkuda, pakun", "type": "verbs" },
-  {
-    "en": "To apply",
-    "ee": "kandideerima, kandideerida, kandideerin",
-    "type": "verbs"
-  },
-  { "en": "To send", "ee": "saatma, saata, saadan", "type": "verbs" },
-  { "en": "To hire", "ee": "palkama, palgata, palkan", "type": "verbs" },
-  { "en": "To earn", "ee": "teenima, teenida, teenin", "type": "verbs" },
-  { "en": "To hope", "ee": "lootma, loota, loodan", "type": "verbs" },
-  { "en": "To fear", "ee": "kartma, karta, kardan", "type": "verbs" },
-  { "en": "To help", "ee": "aitama, aidata, aitan", "type": "verbs" },
-  { "en": "To teach", "ee": "õpetama, õpetada, õpetan", "type": "verbs" },
-  { "en": "To study", "ee": "õppima, õppida, õpin", "type": "verbs" },
-  { "en": "To mean", "ee": "tähendama, tähendada, tähendab", "type": "verbs" },
-  { "en": "To translate", "ee": "tõlkima, tõlkida, tõlgin", "type": "verbs" },
-  { "en": "To repeat", "ee": "kordama, korrata, kordan", "type": "verbs" },
-  { "en": "To wait", "ee": "ootama, oodata, ootan", "type": "verbs" },
-  { "en": "To fly", "ee": "lendama, lennata, lendan", "type": "verbs" },
-  { "en": "To live", "ee": "Elama, Elada, Elan", "type": "verbs" },
-  { "en": "To read", "ee": "Lugema, lugeda, loen", "type": "verbs" },
-  { "en": "To write", "ee": "kirjutama, kirjutada, kirjutan", "type": "verbs" },
-  { "en": "To sleep", "ee": "magama", "type": "verbs" },
-  {
-    "en": "To Agree",
-    "ee": "nõus olema, nõus olla, olen nõus",
-    "type": "verbs"
-  },
-  { "en": "to drink", "ee": "jooma, joonud, joon", "type": "verbs" },
-  { "en": "to drive", "ee": "sõitma, ", "type": "verbs" },
-  { "en": "It is sunny", "ee": "Päike paistab", "type": "weather" },
-  { "en": "It is raining", "ee": "Vihma sajab", "type": "weather" },
-  { "en": "It is snowing", "ee": "Lund sajab", "type": "weather" },
-  { "en": "The weather is nice", "ee": "On ilus ilm", "type": "weather" },
-  { "en": "The weather is bad", "ee": "On kole ilm", "type": "weather" },
-  {
-    "en": "There is thunder and lightning",
-    "ee": "Müristab ja lööb äikest",
-    "type": "weather"
-  },
-  { "en": "The sky is clear", "ee": "Taevas on selge", "type": "weather" },
-  { "en": "It is cloudy", "ee": "On pilvine", "type": "weather" },
-  { "en": "It is windy", "ee": "On tuuline", "type": "weather" },
-  { "en": "It is foggy", "ee": "On udune", "type": "weather" },
-  { "en": "It is cold", "ee": "On külm", "type": "weather" },
-  { "en": "It is warm", "ee": "On soe", "type": "weather" },
-  { "en": "It is hot", "ee": "oskan küll", "type": "weather" },
-  {
-    "en": "It is 25 degrees outside",
-    "ee": "Väljas on 25 kraadi sooja",
-    "type": "weather"
-  },
-  {
-    "en": "It is minus 2 degrees outside",
-    "ee": "Väljas on 2 kraadi külma",
-    "type": "weather"
-  },
-  { "en": "hot", "ee": "palav", "type": "weather" },
-  { "en": "warm", "ee": "soe", "type": "weather" },
-  { "en": "cold", "ee": "külm", "type": "weather" },
-  { "en": "better", "ee": "parem", "type": "toBeSorted" },
-  { "en": "surname", "ee": "perekonnanimi / perenimi", "type": "toBeSorted" },
-  { "en": "first name", "ee": "eesnimi", "type": "toBeSorted" },
-  { "en": "so", "ee": "nii", "type": "toBeSorted" },
-  { "en": "went", "ee": "läks", "type": "toBeSorted" },
-  { "en": "exam", "ee": "eksam", "type": "toBeSorted" },
-  { "en": "poorly", "ee": "halvasti", "type": "toBeSorted" },
-  { "en": "dissapointed", "ee": "pettinud", "type": "toBeSorted" },
-  { "en": "sad", "ee": "kurb", "type": "toBeSorted" },
-  { "en": "real (very/a lot)", "ee": "tõeline", "type": "toBeSorted" },
-  { "en": "okay", "ee": "olgu", "type": "toBeSorted" },
-  { "en": "good / well / fluently", "ee": "hästi", "type": "toBeSorted" },
-  { "en": "unfortunately", "ee": "kahjuks", "type": "toBeSorted" },
-  { "en": "still", "ee": "alles", "type": "toBeSorted" },
-  { "en": "at all", "ee": "üldse", "type": "toBeSorted" },
-  { "en": "only", "ee": "Ainult", "type": "toBeSorted" },
-  { "en": "yes i do", "ee": "olen küll", "type": "toBeSorted" },
-  { "en": "outside (in nature)", "ee": "väljas", "type": "toBeSorted" },
-  { "en": "house", "ee": "maja", "type": "toBeSorted" },
-  { "en": "girl", "ee": "tüdruk", "type": "toBeSorted" },
-  { "en": "family", "ee": "pere / perekond", "type": "toBeSorted" },
-  { "en": "lastname", "ee": "perenimi", "type": "toBeSorted" },
-  { "en": "laptop", "ee": "läpakas, arvuti", "type": "toBeSorted" },
-  { "en": "fortunately", "ee": "õnneks", "type": "smallWordsTwo" },
-  { "en": "unfortunately", "ee": "kahjuks", "type": "smallWordsTwo" },
-  { "en": "of course", "ee": "muidugi", "type": "smallWordsTwo" },
-  { "en": "actually", "ee": "tegelikult", "type": "smallWordsTwo" },
-  { "en": "really", "ee": "tõesti", "type": "smallWordsTwo" },
-  { "en": "exactly", "ee": "täpselt", "type": "smallWordsTwo" },
-  { "en": "approximately", "ee": "umbes", "type": "smallWordsTwo" },
-  { "en": "definitely", "ee": "kindlasti", "type": "smallWordsTwo" },
-  { "en": "maybe", "ee": "võibolla", "type": "smallWordsTwo" },
-  { "en": "early", "ee": "vara", "type": "smallWordsTwo" },
-  { "en": "late", "ee": "hilja", "type": "smallWordsTwo" },
-  { "en": "in general", "ee": "üldiselt", "type": "smallWordsTwo" },
-  { "en": "often", "ee": "tihti", "type": "smallWordsTwo" },
-  { "en": "usually", "ee": "tavaliselt", "type": "smallWordsTwo" },
-  { "en": "sometimes", "ee": "mõnikord", "type": "smallWordsTwo" },
-  { "en": "rarely", "ee": "harva", "type": "smallWordsTwo" },
-  { "en": "never", "ee": "mitte kunagi", "type": "smallWordsTwo" },
-  { "en": "not really", "ee": "mitte eriti", "type": "smallWordsTwo" },
-  { "en": "before", "ee": "enne", "type": "smallWordsTwo" },
-  { "en": "after", "ee": "pärast", "type": "smallWordsTwo" },
-  { "en": "too", "ee": "liiga", "type": "smallWordsTwo" },
-  { "en": "open", "ee": "lahti", "type": "smallWordsTwo" },
-  { "en": "closed", "ee": "kinni", "type": "smallWordsTwo" },
-  { "en": "answer", "ee": "vasta", "type": "toBeSorted" },
-  { "en": "ask", "ee": "küsi", "type": "toBeSorted" },
-  { "en": "add", "ee": "lisa", "type": "toBeSorted" },
-  { "en": "example", "ee": "Näide", "type": "toBeSorted" },
-  { "en": "to be", "ee": "olema, olen, olla", "type": "newlyAdded" },
-  { "en": "to live", "ee": "elama, elan, elada", "type": "newlyAdded" },
-  { "en": "to speak", "ee": "rääkima, räägin, rääkida", "type": "newlyAdded" },
-  { "en": "to say", "ee": "ütlema, ütlen, öelda", "type": "newlyAdded" },
-  {
-    "en": "to think, to have an opinion",
-    "ee": "arvama, arvan, arvata",
-    "type": "newlyAdded"
-  },
-  { "en": "to know", "ee": "teadma, tean, teada", "type": "newlyAdded" },
-  {
-    "en": "to understand",
-    "ee": "aru saama, saan aru, aru saada",
-    "type": "newlyAdded"
-  },
-  { "en": "to go", "ee": "minema, lähen, minna", "type": "newlyAdded" },
-  {
-    "en": "to go (regularly)",
-    "ee": "käima, käin, käia",
-    "type": "newlyAdded"
-  },
-  {
-    "en": "to go by transport",
-    "ee": "sõitma, sõidan, sõita",
-    "type": "newlyAdded"
-  },
-  { "en": "to come", "ee": "tulema, tulen, tulla", "type": "newlyAdded" },
-  { "en": "to ask", "ee": "küsima, küsin, küsida", "type": "newlyAdded" },
-  { "en": "to answer", "ee": "vastama, vastan, vastata", "type": "newlyAdded" },
-  { "en": "to read", "ee": "lugema, loen, lugeda", "type": "newlyAdded" },
-  {
-    "en": "to write",
-    "ee": "kirjutama, kirjutan, kirjutada",
-    "type": "newlyAdded"
-  },
-  { "en": "to work", "ee": "töötama, töötan, töötada", "type": "newlyAdded" },
-  { "en": "to sleep", "ee": "magama, magan, magada", "type": "newlyAdded" },
-  { "en": "to eat", "ee": "sööma, söön, süüa", "type": "newlyAdded" },
-  { "en": "to drink", "ee": "jooma, joon, juua", "type": "newlyAdded" },
-  {
-    "en": "to call",
-    "ee": "helistama, helistan, helistada",
-    "type": "newlyAdded"
-  },
-  { "en": "to want", "ee": "tahtma, tahan, tahta", "type": "newlyAdded" },
-  { "en": "to do, to make", "ee": "tegema, teen, teha", "type": "newlyAdded" },
-  {
-    "en": "to like",
-    "ee": "meeldima, meeldib, meeldida",
-    "type": "newlyAdded"
-  },
-  {
-    "en": "to love",
-    "ee": "armastama, armastan, armastada",
-    "type": "newlyAdded"
-  },
-  { "en": "big", "ee": "suur, suure, suurt / suuri", "type": "newlyAdded" },
-  {
-    "en": "small",
-    "ee": "väike, väikse, väikest / väikseid",
-    "type": "newlyAdded"
-  },
-  { "en": "new", "ee": "uus, uue, uut / uusi", "type": "newlyAdded" },
-  { "en": "old", "ee": "vana, vana, vana / vanu", "type": "newlyAdded" },
-  {
-    "en": "high",
-    "ee": "kõrge, kõrge, kõrget / kõrgeid",
-    "type": "newlyAdded"
-  },
-  {
-    "en": "deep",
-    "ee": "sügav, sügava, sügavat / sügavaid",
-    "type": "newlyAdded"
-  },
-  {
-    "en": "low",
-    "ee": "madal, madala, madalat / madalaid",
-    "type": "newlyAdded"
-  },
-  { "en": "good", "ee": "hea, hea, head / häid", "type": "newlyAdded" },
-  { "en": "bad", "ee": "halb, halva, halba / halbu", "type": "newlyAdded" },
-  {
-    "en": "expensive",
-    "ee": "kallis, kalli, kallist / kalleid",
-    "type": "newlyAdded"
-  },
-  {
-    "en": "cheap",
-    "ee": "odav, odava, odavat / odavaid",
-    "type": "newlyAdded"
-  },
-  { "en": "broad", "ee": "lai, laia, laia / laiu", "type": "newlyAdded" },
-  {
-    "en": "narrow",
-    "ee": "kitsas, kitsa, kitsast / kitsaid",
-    "type": "newlyAdded"
-  },
-  {
-    "en": "sweet",
-    "ee": "magus, magusa, magusat / magusaid",
-    "type": "newlyAdded"
-  },
-  {
-    "en": "bitter",
-    "ee": "mõru, mõruda, mõrudat / mõrudaid",
-    "type": "newlyAdded"
-  },
-  {
-    "en": "salty",
-    "ee": "soolane, soolase, soolast / soolaseid",
-    "type": "newlyAdded"
-  },
-  {
-    "en": "dark",
-    "ee": "pime, pimeda, pimedat / pimedaid",
-    "type": "newlyAdded"
-  },
-  {
-    "en": "light",
-    "ee": "valge, valge, valget / valgeid",
-    "type": "newlyAdded"
-  },
-  { "en": "cold", "ee": "külm, külma, külma / külmi", "type": "newlyAdded" },
-  { "en": "warm", "ee": "soe, sooja, sooja / sooje", "type": "newlyAdded" },
-  {
-    "en": "dangerous",
-    "ee": "ohtlik, ohtliku, ohtlikku / ohtlikke",
-    "type": "newlyAdded"
-  },
-  {
-    "en": "safe",
-    "ee": "turvaline, turvalise, turvalist / turvalisi",
-    "type": "newlyAdded"
-  },
-  { "en": "dirty", "ee": "must, musta, musta / musti", "type": "newlyAdded" },
-  {
-    "en": "clean",
-    "ee": "puhas, puhta, puhast / puhtaid",
-    "type": "newlyAdded"
-  },
-  {
-    "en": "important",
-    "ee": "oluline, olulise, olulist / olulisi",
-    "type": "newlyAdded"
-  },
-  {
-    "en": "interesting",
-    "ee": "huvitav, huvitava, huvitavat / huvitavaid",
-    "type": "newlyAdded"
-  },
-  {
-    "en": "boring",
-    "ee": "igav, igava, igavat / igavaid",
-    "type": "newlyAdded"
-  },
-  {
-    "en": "first",
-    "ee": "esimene, esimese, esimest / esimesi",
-    "type": "newlyAdded"
-  },
-  {
-    "en": "next",
-    "ee": "järgmine, järgmise, järgmist / järgmisi",
-    "type": "newlyAdded"
-  },
-  {
-    "en": "last",
-    "ee": "viimane, viimase, viimast / viimaseid",
-    "type": "newlyAdded"
-  },
-  {
-    "en": "light, easy",
-    "ee": "kerge, kerge, kerget / kergeid",
-    "type": "newlyAdded"
-  },
-  {
-    "en": "heavy, hard",
-    "ee": "raske, raske, rasket / raskeid",
-    "type": "newlyAdded"
-  },
-  {
-    "en": "comfortable",
-    "ee": "mugav, mugava, mugavat / mugavaid",
-    "type": "newlyAdded"
-  },
-  {
-    "en": "uncomfortable",
-    "ee": "ebamugav, ebamugava, ebamugavat / ebamugavaid",
-    "type": "newlyAdded"
-  },
-  {
-    "en": "special",
-    "ee": "eriline, erilise, erilist / erilisi",
-    "type": "newlyAdded"
-  },
-  {
-    "en": "usual",
-    "ee": "tavaline, tavalise, tavalist / tavalisi",
-    "type": "newlyAdded"
-  },
-  {
-    "en": "different",
-    "ee": "erinev, erineva, erinevat / erinevaid",
-    "type": "newlyAdded"
-  },
-  {
-    "en": "similar",
-    "ee": "sarnane, sarnase, sarnast / sarnaseid",
-    "type": "newlyAdded"
-  },
   { "en": "big", "ee": "suur, suure, suurt / suuri", "type": "adjective" },
   {
     "en": "small",
@@ -874,5 +236,679 @@
     "ee": "sõrmus, sõrmuse, sõrmust / sõrmuseid",
     "type": "clothes"
   },
-  { "en": "blazer", "ee": "pintsak", "type": "clothes" }
+  { "en": "blazer", "ee": "pintsak", "type": "clothes" },
+  { "en": "emotions", "ee": "emootsioonid", "type": "emotion" },
+  { "en": "happy", "ee": "õnnelik", "type": "emotion" },
+  { "en": "happy", "ee": "rõõmus", "type": "emotion" },
+  { "en": "Fruit", "ee": "puuvili", "type": "food" },
+  { "en": "meal", "ee": "sööki", "type": "food" },
+  { "en": "breakfast", "ee": "hommikusöök", "type": "food" },
+  { "en": "lunch", "ee": "lõunasöök", "type": "food" },
+  { "en": "dinner", "ee": "õhtusöök", "type": "food" },
+  { "en": "good morning", "ee": "Tere hommikust", "type": "greetingFarewell" },
+  { "en": "good day", "ee": "Tere päevast", "type": "greetingFarewell" },
+  {
+    "en": "good afternoon/evening",
+    "ee": "Tere õhtust",
+    "type": "greetingFarewell"
+  },
+  { "en": "hello", "ee": "Tere ", "type": "greetingFarewell" },
+  { "en": "hi", "ee": "Tervist ", "type": "greetingFarewell" },
+  { "en": "see you!", "ee": "Nägemiseni ", "type": "greetingFarewell" },
+  { "en": "see you! bye!", "ee": "Nägemist ", "type": "greetingFarewell" },
+  { "en": "goodbye!", "ee": "Head aega", "type": "greetingFarewell" },
+  {
+    "en": "Have a nice evening!",
+    "ee": "Head õhtut",
+    "type": "greetingFarewell"
+  },
+  { "en": "good night!", "ee": "Head ööd", "type": "greetingFarewell" },
+  { "en": "All the best!", "ee": "Kõike head", "type": "greetingFarewell" },
+  { "en": "see you!", "ee": "Kohtumiseni ", "type": "greetingFarewell" },
+  { "en": "see you tomorrow", "ee": "homseni", "type": "greetingFarewell" },
+  { "en": "who", "ee": "kes", "type": "interrogative" },
+  { "en": "what", "ee": "mis", "type": "interrogative" },
+  { "en": "when", "ee": "millal", "type": "interrogative" },
+  { "en": "where", "ee": "kus", "type": "interrogative" },
+  { "en": "where to", "ee": "kuhu", "type": "interrogative" },
+  { "en": "why", "ee": "miks", "type": "interrogative" },
+  { "en": "how", "ee": "kuidas", "type": "interrogative" },
+  { "en": "how much", "ee": "kui palju", "type": "interrogative" },
+  { "en": "how many", "ee": "kui palju / mitu", "type": "interrogative" },
+  { "en": "which / What kind", "ee": "milline", "type": "interrogative" },
+  { "en": "how long", "ee": "kui kaua", "type": "interrogative" },
+  { "en": "how often", "ee": "kui tihti", "type": "interrogative" },
+  { "en": "how big", "ee": "kui suur", "type": "interrogative" },
+  { "en": "how old", "ee": "kui vana", "type": "interrogative" },
+  { "en": "television", "ee": "televiisorit", "type": "items" },
+  { "en": "pen", "ee": "pastakas / pastapliiats", "type": "items" },
+  { "en": "table", "ee": "laud", "type": "items" },
+  { "en": "book", "ee": "raamat", "type": "items" },
+  { "en": "to be", "ee": "olema, olen, olla", "type": "newlyAdded" },
+  { "en": "to live", "ee": "elama, elan, elada", "type": "newlyAdded" },
+  { "en": "to speak", "ee": "rääkima, räägin, rääkida", "type": "newlyAdded" },
+  { "en": "to say", "ee": "ütlema, ütlen, öelda", "type": "newlyAdded" },
+  {
+    "en": "to think, to have an opinion",
+    "ee": "arvama, arvan, arvata",
+    "type": "newlyAdded"
+  },
+  { "en": "to know", "ee": "teadma, tean, teada", "type": "newlyAdded" },
+  {
+    "en": "to understand",
+    "ee": "aru saama, saan aru, aru saada",
+    "type": "newlyAdded"
+  },
+  { "en": "to go", "ee": "minema, lähen, minna", "type": "newlyAdded" },
+  {
+    "en": "to go (regularly)",
+    "ee": "käima, käin, käia",
+    "type": "newlyAdded"
+  },
+  {
+    "en": "to go by transport",
+    "ee": "sõitma, sõidan, sõita",
+    "type": "newlyAdded"
+  },
+  { "en": "to come", "ee": "tulema, tulen, tulla", "type": "newlyAdded" },
+  { "en": "to ask", "ee": "küsima, küsin, küsida", "type": "newlyAdded" },
+  { "en": "to answer", "ee": "vastama, vastan, vastata", "type": "newlyAdded" },
+  { "en": "to read", "ee": "lugema, loen, lugeda", "type": "newlyAdded" },
+  {
+    "en": "to write",
+    "ee": "kirjutama, kirjutan, kirjutada",
+    "type": "newlyAdded"
+  },
+  { "en": "to work", "ee": "töötama, töötan, töötada", "type": "newlyAdded" },
+  { "en": "to sleep", "ee": "magama, magan, magada", "type": "newlyAdded" },
+  { "en": "to eat", "ee": "sööma, söön, süüa", "type": "newlyAdded" },
+  { "en": "to drink", "ee": "jooma, joon, juua", "type": "newlyAdded" },
+  {
+    "en": "to call",
+    "ee": "helistama, helistan, helistada",
+    "type": "newlyAdded"
+  },
+  { "en": "to want", "ee": "tahtma, tahan, tahta", "type": "newlyAdded" },
+  { "en": "to do, to make", "ee": "tegema, teen, teha", "type": "newlyAdded" },
+  {
+    "en": "to like",
+    "ee": "meeldima, meeldib, meeldida",
+    "type": "newlyAdded"
+  },
+  {
+    "en": "to love",
+    "ee": "armastama, armastan, armastada",
+    "type": "newlyAdded"
+  },
+  { "en": "big", "ee": "suur, suure, suurt / suuri", "type": "newlyAdded" },
+  {
+    "en": "small",
+    "ee": "väike, väikse, väikest / väikseid",
+    "type": "newlyAdded"
+  },
+  { "en": "new", "ee": "uus, uue, uut / uusi", "type": "newlyAdded" },
+  { "en": "old", "ee": "vana, vana, vana / vanu", "type": "newlyAdded" },
+  {
+    "en": "high",
+    "ee": "kõrge, kõrge, kõrget / kõrgeid",
+    "type": "newlyAdded"
+  },
+  {
+    "en": "deep",
+    "ee": "sügav, sügava, sügavat / sügavaid",
+    "type": "newlyAdded"
+  },
+  {
+    "en": "low",
+    "ee": "madal, madala, madalat / madalaid",
+    "type": "newlyAdded"
+  },
+  { "en": "good", "ee": "hea, hea, head / häid", "type": "newlyAdded" },
+  { "en": "bad", "ee": "halb, halva, halba / halbu", "type": "newlyAdded" },
+  {
+    "en": "expensive",
+    "ee": "kallis, kalli, kallist / kalleid",
+    "type": "newlyAdded"
+  },
+  {
+    "en": "cheap",
+    "ee": "odav, odava, odavat / odavaid",
+    "type": "newlyAdded"
+  },
+  { "en": "broad", "ee": "lai, laia, laia / laiu", "type": "newlyAdded" },
+  {
+    "en": "narrow",
+    "ee": "kitsas, kitsa, kitsast / kitsaid",
+    "type": "newlyAdded"
+  },
+  {
+    "en": "sweet",
+    "ee": "magus, magusa, magusat / magusaid",
+    "type": "newlyAdded"
+  },
+  {
+    "en": "bitter",
+    "ee": "mõru, mõruda, mõrudat / mõrudaid",
+    "type": "newlyAdded"
+  },
+  {
+    "en": "salty",
+    "ee": "soolane, soolase, soolast / soolaseid",
+    "type": "newlyAdded"
+  },
+  {
+    "en": "dark",
+    "ee": "pime, pimeda, pimedat / pimedaid",
+    "type": "newlyAdded"
+  },
+  {
+    "en": "light",
+    "ee": "valge, valge, valget / valgeid",
+    "type": "newlyAdded"
+  },
+  { "en": "cold", "ee": "külm, külma, külma / külmi", "type": "newlyAdded" },
+  { "en": "warm", "ee": "soe, sooja, sooja / sooje", "type": "newlyAdded" },
+  {
+    "en": "dangerous",
+    "ee": "ohtlik, ohtliku, ohtlikku / ohtlikke",
+    "type": "newlyAdded"
+  },
+  {
+    "en": "safe",
+    "ee": "turvaline, turvalise, turvalist / turvalisi",
+    "type": "newlyAdded"
+  },
+  { "en": "dirty", "ee": "must, musta, musta / musti", "type": "newlyAdded" },
+  {
+    "en": "clean",
+    "ee": "puhas, puhta, puhast / puhtaid",
+    "type": "newlyAdded"
+  },
+  {
+    "en": "important",
+    "ee": "oluline, olulise, olulist / olulisi",
+    "type": "newlyAdded"
+  },
+  {
+    "en": "interesting",
+    "ee": "huvitav, huvitava, huvitavat / huvitavaid",
+    "type": "newlyAdded"
+  },
+  {
+    "en": "boring",
+    "ee": "igav, igava, igavat / igavaid",
+    "type": "newlyAdded"
+  },
+  {
+    "en": "first",
+    "ee": "esimene, esimese, esimest / esimesi",
+    "type": "newlyAdded"
+  },
+  {
+    "en": "next",
+    "ee": "järgmine, järgmise, järgmist / järgmisi",
+    "type": "newlyAdded"
+  },
+  {
+    "en": "last",
+    "ee": "viimane, viimase, viimast / viimaseid",
+    "type": "newlyAdded"
+  },
+  {
+    "en": "light, easy",
+    "ee": "kerge, kerge, kerget / kergeid",
+    "type": "newlyAdded"
+  },
+  {
+    "en": "heavy, hard",
+    "ee": "raske, raske, rasket / raskeid",
+    "type": "newlyAdded"
+  },
+  {
+    "en": "comfortable",
+    "ee": "mugav, mugava, mugavat / mugavaid",
+    "type": "newlyAdded"
+  },
+  {
+    "en": "uncomfortable",
+    "ee": "ebamugav, ebamugava, ebamugavat / ebamugavaid",
+    "type": "newlyAdded"
+  },
+  {
+    "en": "special",
+    "ee": "eriline, erilise, erilist / erilisi",
+    "type": "newlyAdded"
+  },
+  {
+    "en": "usual",
+    "ee": "tavaline, tavalise, tavalist / tavalisi",
+    "type": "newlyAdded"
+  },
+  {
+    "en": "different",
+    "ee": "erinev, erineva, erinevat / erinevaid",
+    "type": "newlyAdded"
+  },
+  {
+    "en": "similar",
+    "ee": "sarnane, sarnase, sarnast / sarnaseid",
+    "type": "newlyAdded"
+  },
+  { "en": "coworker", "ee": "töökaaslane", "type": "people" },
+  { "en": "neighbour", "ee": "naaber", "type": "people" },
+  { "en": "friend", "ee": "sõber", "type": "people" },
+  { "en": "good acquaintance", "ee": "hea tuttav", "type": "people" },
+  { "en": "boss", "ee": "ülemus", "type": "people" },
+  { "en": "student", "ee": "õpilane", "type": "people" },
+  { "en": "child", "ee": "laps", "type": "people" },
+  { "en": "sister", "ee": "õde, õe, õde / õdesid", "type": "people" },
+  { "en": "brother", "ee": "vend, venna, venda / vendi", "type": "people" },
+  {
+    "en": "Daughter",
+    "ee": "tütar, tütre, tütart / tütreid",
+    "type": "people"
+  },
+  { "en": "son", "ee": "poeg, poja, poega / poegasid", "type": "people" },
+  { "en": "aunt", "ee": "tädi, tädi, tädi / tädisid", "type": "people" },
+  { "en": "uncle", "ee": "onu, onu, onu / onusid", "type": "people" },
+  {
+    "en": "grandmother",
+    "ee": "vanaema, vanaema, vanaema / vanaemasid",
+    "type": "people"
+  },
+  {
+    "en": "grandfather",
+    "ee": "vanaisa, vanaisa, vanaisa / vanaisasid",
+    "type": "people"
+  },
+  {
+    "en": "grandchild",
+    "ee": "lapselaps, lapselapse, lapselast / lapselapsi",
+    "type": "people"
+  },
+  {
+    "en": "person human",
+    "ee": "inimene, inimese, inimest / inimesi",
+    "type": "people"
+  },
+  { "en": "child", "ee": "laps, lapse, last / lapsi", "type": "people" },
+  { "en": "woman", "ee": "naine, naise, naist / naisi", "type": "people" },
+  { "en": "man", "ee": "mees, mehe, meest / mehi", "type": "people" },
+  {
+    "en": "girl",
+    "ee": "tüdruk, tüdruku, tüdrukut / tüdrukuid",
+    "type": "people"
+  },
+  { "en": "boy", "ee": "poiss, poisi, poissi / poisse", "type": "people" },
+  { "en": "friend", "ee": "sõber, sõbra, sõpra / sõpru", "type": "people" },
+  {
+    "en": "colleague",
+    "ee": "kolleeg, kolleegi, kolleegi / kolleege",
+    "type": "people"
+  },
+  {
+    "en": "neighbour",
+    "ee": "naaber, naabri, naabrit / naabreid",
+    "type": "people"
+  },
+  { "en": "excuse me", "ee": "Vabandage mind", "type": "phrase" },
+  {
+    "en": "let's get acquinted (Plural)",
+    "ee": "Saage tuttavaks",
+    "type": "phrase"
+  },
+  { "en": "nice to meet you", "ee": "meeldib tutvuda", "type": "phrase" },
+  {
+    "en": "let me introduce you - this is my colleague [name]",
+    "ee": "las/lubage ma tutvustan teid, see on minu kolleeg [name]",
+    "type": "phrase"
+  },
+  { "en": "is it your boss", "ee": "kas on sinu ulemas", "type": "phrase" },
+  {
+    "en": "no thanks needed - no problem",
+    "ee": "pole tänu väärt",
+    "type": "phrase"
+  },
+  { "en": "ill bring it right away", "ee": "kohe toon", "type": "phrase" },
+  { "en": "wonderful news", "ee": "suurepärane uudis", "type": "phrase" },
+  { "en": "don't worry", "ee": "ära muretse", "type": "phrase" },
+  { "en": "what a pity", "ee": "kui kahju", "type": "phrase" },
+  { "en": "Thanks", "ee": "Äitah", "type": "politeness" },
+  { "en": "Thank you", "ee": "Tänan", "type": "politeness" },
+  {
+    "en": "Thank you very much",
+    "ee": "Suur tänu - Suur äitah",
+    "type": "politeness"
+  },
+  { "en": "Here you are", "ee": "Palun", "type": "politeness" },
+  { "en": "Don't mention it", "ee": "Pole tänu väärt", "type": "politeness" },
+  { "en": "Excuse me!", "ee": "Vabandage! / Vabanda", "type": "politeness" },
+  { "en": "Sorry!", "ee": "Vabandust", "type": "politeness" },
+  {
+    "en": "Please forgive me!",
+    "ee": "Anna / Andke andeks!",
+    "type": "politeness"
+  },
+  { "en": "It's nothing", "ee": "Pole midagi", "type": "politeness" },
+  {
+    "en": "You're welcome!",
+    "ee": "Võta / võtke heaks!",
+    "type": "politeness"
+  },
+  {
+    "en": "Enjoy your meal! / Bon appetit!",
+    "ee": "Head isu!",
+    "type": "politeness"
+  },
+  { "en": "Bless you!", "ee": "Tervist ", "type": "politeness" },
+  {
+    "en": "Teacher",
+    "ee": "õpetaja, õpetaja, õpetajat/õpetajaid",
+    "type": "profession"
+  },
+  { "en": "Doctor ", "ee": "Arst, arsti, arsti/arste", "type": "profession" },
+  {
+    "en": "Driver ",
+    "ee": "Autojuht, autojuhi, autojuhti / autojuhte",
+    "type": "profession"
+  },
+  {
+    "en": "Builder ",
+    "ee": "Ehita, ehitaja, ehitajat / ehitajaid",
+    "type": "profession"
+  },
+  {
+    "en": "Waiter",
+    "ee": "Ettekandja, ettekandja, ettekandjat / ettekandjaid",
+    "type": "profession"
+  },
+  {
+    "en": "Hairdresser",
+    "ee": "Juuksur, juuksuri, juuksurit / juuksureid",
+    "type": "profession"
+  },
+  { "en": "Chef", "ee": "Kokk, Koka, Kokka, / Kokki", "type": "profession" },
+  {
+    "en": "Cleaner",
+    "ee": "Koristaja, Koristaja, Koristajat / Koristajaid",
+    "type": "profession"
+  },
+  {
+    "en": "Translator",
+    "ee": "Tõlkija, Tõlkija, Tõlkijat - Tõlkijaid",
+    "type": "profession"
+  },
+  {
+    "en": "Writer",
+    "ee": "kirjanik, kirjaniku, kirjanikku / kirjanikke",
+    "type": "profession"
+  },
+  {
+    "en": "nanny",
+    "ee": "lapsehoidja, lapsehoidja, lapsehoidjat / lapsehoidjaid",
+    "type": "profession"
+  },
+  {
+    "en": "seller",
+    "ee": "müüja, müüja, müüjat / müüjaid",
+    "type": "profession"
+  },
+  {
+    "en": "police officer",
+    "ee": "politseinik, politseiniku, politseinikku / politseinikke",
+    "type": "profession"
+  },
+  {
+    "en": "journalist",
+    "ee": "ajakirjanik, ajakirjaniku, ajakirjanikku / ajakirjanikke",
+    "type": "profession"
+  },
+  {
+    "en": "artist",
+    "ee": "kunstnik, kunstniku, kunstnikku / kunstnikke",
+    "type": "profession"
+  },
+  {
+    "en": "programmer",
+    "ee": "programmeerija, programmeerija, programmeerijat / programmeerijaid",
+    "type": "profession"
+  },
+  {
+    "en": "singer",
+    "ee": "laulja, laulja, lauljat / lauljaid",
+    "type": "profession"
+  },
+  {
+    "en": "scientist",
+    "ee": "teadlane, teadlase, teadlast / teadlasi",
+    "type": "profession"
+  },
+  {
+    "en": "architect",
+    "ee": "arhitekt, arhitekti, arhitekti / arhitekte",
+    "type": "profession"
+  },
+  { "en": "quickly", "ee": "kiiresti", "type": "smallWordsTwo" },
+  { "en": "fortunately", "ee": "õnneks", "type": "smallWordsTwo" },
+  { "en": "unfortunately", "ee": "kahjuks", "type": "smallWordsTwo" },
+  { "en": "of course", "ee": "muidugi", "type": "smallWordsTwo" },
+  { "en": "actually", "ee": "tegelikult", "type": "smallWordsTwo" },
+  { "en": "really", "ee": "tõesti", "type": "smallWordsTwo" },
+  { "en": "exactly", "ee": "täpselt", "type": "smallWordsTwo" },
+  { "en": "approximately", "ee": "umbes", "type": "smallWordsTwo" },
+  { "en": "definitely", "ee": "kindlasti", "type": "smallWordsTwo" },
+  { "en": "maybe", "ee": "võibolla", "type": "smallWordsTwo" },
+  { "en": "early", "ee": "vara", "type": "smallWordsTwo" },
+  { "en": "late", "ee": "hilja", "type": "smallWordsTwo" },
+  { "en": "in general", "ee": "üldiselt", "type": "smallWordsTwo" },
+  { "en": "often", "ee": "tihti", "type": "smallWordsTwo" },
+  { "en": "usually", "ee": "tavaliselt", "type": "smallWordsTwo" },
+  { "en": "sometimes", "ee": "mõnikord", "type": "smallWordsTwo" },
+  { "en": "rarely", "ee": "harva", "type": "smallWordsTwo" },
+  { "en": "never", "ee": "mitte kunagi", "type": "smallWordsTwo" },
+  { "en": "not really", "ee": "mitte eriti", "type": "smallWordsTwo" },
+  { "en": "before", "ee": "enne", "type": "smallWordsTwo" },
+  { "en": "after", "ee": "pärast", "type": "smallWordsTwo" },
+  { "en": "too", "ee": "liiga", "type": "smallWordsTwo" },
+  { "en": "open", "ee": "lahti", "type": "smallWordsTwo" },
+  { "en": "closed", "ee": "kinni", "type": "smallWordsTwo" },
+  { "en": "Year", "ee": "aasta", "type": "time" },
+  { "en": "season", "ee": "aastajad", "type": "time" },
+  { "en": "month", "ee": "kuud", "type": "time" },
+  { "en": "Winter", "ee": "talv", "type": "time" },
+  { "en": "Spring", "ee": "kevad", "type": "time" },
+  { "en": "Summer", "ee": "suvi", "type": "time" },
+  { "en": "Autumn", "ee": "sügis", "type": "time" },
+  { "en": "January", "ee": "Jaanuar", "type": "time" },
+  { "en": "February", "ee": "Veebruar", "type": "time" },
+  { "en": "March", "ee": "Märts", "type": "time" },
+  { "en": "April", "ee": "Aprill", "type": "time" },
+  { "en": "May", "ee": "Mai", "type": "time" },
+  { "en": "June", "ee": "Juuni", "type": "time" },
+  { "en": "July", "ee": "Juuli", "type": "time" },
+  { "en": "August", "ee": "August", "type": "time" },
+  { "en": "September", "ee": "September", "type": "time" },
+  { "en": "October", "ee": "Oktoober", "type": "time" },
+  { "en": "Novermber", "ee": "November", "type": "time" },
+  { "en": "December", "ee": "Detsember", "type": "time" },
+  { "en": "time", "ee": "aeg", "type": "time" },
+  { "en": "clock", "ee": "kell", "type": "time" },
+  { "en": "an hour", "ee": "tund", "type": "time" },
+  { "en": "a minute", "ee": "minut", "type": "time" },
+  { "en": "a second", "ee": "sekund", "type": "time" },
+  { "en": "noon", "ee": "lõuna", "type": "time" },
+  { "en": "afternoon", "ee": "pärastlõouna", "type": "time" },
+  { "en": "quarter (clock)", "ee": "veerand", "type": "time" },
+  { "en": "Three times quarter (clock)", "ee": "kolmveerand", "type": "time" },
+  { "en": "half to (clock)", "ee": "pool", "type": "time" },
+  { "en": "better", "ee": "parem", "type": "toBeSorted" },
+  { "en": "surname", "ee": "perekonnanimi / perenimi", "type": "toBeSorted" },
+  { "en": "first name", "ee": "eesnimi", "type": "toBeSorted" },
+  { "en": "so", "ee": "nii", "type": "toBeSorted" },
+  { "en": "went", "ee": "läks", "type": "toBeSorted" },
+  { "en": "exam", "ee": "eksam", "type": "toBeSorted" },
+  { "en": "poorly", "ee": "halvasti", "type": "toBeSorted" },
+  { "en": "dissapointed", "ee": "pettinud", "type": "toBeSorted" },
+  { "en": "sad", "ee": "kurb", "type": "toBeSorted" },
+  { "en": "real (very/a lot)", "ee": "tõeline", "type": "toBeSorted" },
+  { "en": "okay", "ee": "olgu", "type": "toBeSorted" },
+  { "en": "good / well / fluently", "ee": "hästi", "type": "toBeSorted" },
+  { "en": "unfortunately", "ee": "kahjuks", "type": "toBeSorted" },
+  { "en": "still", "ee": "alles", "type": "toBeSorted" },
+  { "en": "at all", "ee": "üldse", "type": "toBeSorted" },
+  { "en": "only", "ee": "Ainult", "type": "toBeSorted" },
+  { "en": "yes i do", "ee": "olen küll", "type": "toBeSorted" },
+  { "en": "outside (in nature)", "ee": "väljas", "type": "toBeSorted" },
+  { "en": "house", "ee": "maja", "type": "toBeSorted" },
+  { "en": "girl", "ee": "tüdruk", "type": "toBeSorted" },
+  { "en": "family", "ee": "pere / perekond", "type": "toBeSorted" },
+  { "en": "lastname", "ee": "perenimi", "type": "toBeSorted" },
+  { "en": "laptop", "ee": "läpakas, arvuti", "type": "toBeSorted" },
+  { "en": "answer", "ee": "vasta", "type": "toBeSorted" },
+  { "en": "ask", "ee": "küsi", "type": "toBeSorted" },
+  { "en": "add", "ee": "lisa", "type": "toBeSorted" },
+  { "en": "example", "ee": "Näide", "type": "toBeSorted" },
+  { "en": "To have to", "ee": "pidama, pean", "type": "verbs" },
+  {
+    "en": "To know how to do something",
+    "ee": "oskama, oskata, oskan",
+    "type": "verbs"
+  },
+  { "en": "To can, to be allowed", "ee": "võima, võin", "type": "verbs" },
+  {
+    "en": "To be able to, to receive",
+    "ee": "saama, saada, saan",
+    "type": "verbs"
+  },
+  { "en": "To offer", "ee": "pakkuma, pakkuda, pakun", "type": "verbs" },
+  {
+    "en": "To apply",
+    "ee": "kandideerima, kandideerida, kandideerin",
+    "type": "verbs"
+  },
+  { "en": "To send", "ee": "saatma, saata, saadan", "type": "verbs" },
+  { "en": "To hire", "ee": "palkama, palgata, palkan", "type": "verbs" },
+  { "en": "To earn", "ee": "teenima, teenida, teenin", "type": "verbs" },
+  { "en": "To hope", "ee": "lootma, loota, loodan", "type": "verbs" },
+  { "en": "To fear", "ee": "kartma, karta, kardan", "type": "verbs" },
+  { "en": "To help", "ee": "aitama, aidata, aitan", "type": "verbs" },
+  { "en": "To teach", "ee": "õpetama, õpetada, õpetan", "type": "verbs" },
+  { "en": "To study", "ee": "õppima, õppida, õpin", "type": "verbs" },
+  { "en": "To mean", "ee": "tähendama, tähendada, tähendab", "type": "verbs" },
+  { "en": "To translate", "ee": "tõlkima, tõlkida, tõlgin", "type": "verbs" },
+  { "en": "To repeat", "ee": "kordama, korrata, kordan", "type": "verbs" },
+  { "en": "To wait", "ee": "ootama, oodata, ootan", "type": "verbs" },
+  { "en": "To fly", "ee": "lendama, lennata, lendan", "type": "verbs" },
+  { "en": "To live", "ee": "Elama, Elada, Elan", "type": "verbs" },
+  { "en": "To read", "ee": "Lugema, lugeda, loen", "type": "verbs" },
+  { "en": "To write", "ee": "kirjutama, kirjutada, kirjutan", "type": "verbs" },
+  { "en": "To sleep", "ee": "magama", "type": "verbs" },
+  {
+    "en": "To Agree",
+    "ee": "nõus olema, nõus olla, olen nõus",
+    "type": "verbs"
+  },
+  { "en": "to drink", "ee": "jooma, joonud, joon", "type": "verbs" },
+  { "en": "to drive", "ee": "sõitma, ", "type": "verbs" },
+  { "en": "to be", "ee": "olema, olen, olla", "type": "verbs" },
+  { "en": "to live", "ee": "elama, elan, elada", "type": "verbs" },
+  { "en": "to speak", "ee": "rääkima, räägin, rääkida", "type": "verbs" },
+  { "en": "to say", "ee": "ütlema, ütlen, öelda", "type": "verbs" },
+  {
+    "en": "to think, to have an opinion",
+    "ee": "arvama, arvan, arvata",
+    "type": "verbs"
+  },
+  { "en": "to know", "ee": "teadma, tean, teada", "type": "verbs" },
+  {
+    "en": "to understand",
+    "ee": "aru saama, saan aru, aru saada",
+    "type": "verbs"
+  },
+  { "en": "to go", "ee": "minema, lähen, minna", "type": "verbs" },
+  { "en": "to go (regularly)", "ee": "käima, käin, käia", "type": "verbs" },
+  {
+    "en": "to go by transport",
+    "ee": "sõitma, sõidan, sõita",
+    "type": "verbs"
+  },
+  { "en": "to come", "ee": "tulema, tulen, tulla", "type": "verbs" },
+  { "en": "to ask", "ee": "küsima, küsin, küsida", "type": "verbs" },
+  { "en": "to answer", "ee": "vastama, vastan, vastata", "type": "verbs" },
+  { "en": "to read", "ee": "lugema, loen, lugeda", "type": "verbs" },
+  { "en": "to write", "ee": "kirjutama, kirjutan, kirjutada", "type": "verbs" },
+  { "en": "to work", "ee": "töötama, töötan, töötada", "type": "verbs" },
+  { "en": "to sleep", "ee": "magama, magan, magada", "type": "verbs" },
+  { "en": "to eat", "ee": "sööma, söön, süüa", "type": "verbs" },
+  { "en": "to drink", "ee": "jooma, joon, juua", "type": "verbs" },
+  { "en": "to call", "ee": "helistama, helistan, helistada", "type": "verbs" },
+  { "en": "to want", "ee": "tahtma, tahan, tahta", "type": "verbs" },
+  { "en": "to do, to make", "ee": "tegema, teen, teha", "type": "verbs" },
+  { "en": "to like", "ee": "meeldima, meeldib, meeldida", "type": "verbs" },
+  { "en": "to love", "ee": "armastama, armastan, armastada", "type": "verbs" },
+  { "en": "It is sunny", "ee": "Päike paistab", "type": "weather" },
+  { "en": "It is raining", "ee": "Vihma sajab", "type": "weather" },
+  { "en": "It is snowing", "ee": "Lund sajab", "type": "weather" },
+  { "en": "The weather is nice", "ee": "On ilus ilm", "type": "weather" },
+  { "en": "The weather is bad", "ee": "On kole ilm", "type": "weather" },
+  {
+    "en": "There is thunder and lightning",
+    "ee": "Müristab ja lööb äikest",
+    "type": "weather"
+  },
+  { "en": "The sky is clear", "ee": "Taevas on selge", "type": "weather" },
+  { "en": "It is cloudy", "ee": "On pilvine", "type": "weather" },
+  { "en": "It is windy", "ee": "On tuuline", "type": "weather" },
+  { "en": "It is foggy", "ee": "On udune", "type": "weather" },
+  { "en": "It is cold", "ee": "On külm", "type": "weather" },
+  { "en": "It is warm", "ee": "On soe", "type": "weather" },
+  { "en": "It is hot", "ee": "oskan küll", "type": "weather" },
+  {
+    "en": "It is 25 degrees outside",
+    "ee": "Väljas on 25 kraadi sooja",
+    "type": "weather"
+  },
+  {
+    "en": "It is minus 2 degrees outside",
+    "ee": "Väljas on 2 kraadi külma",
+    "type": "weather"
+  },
+  { "en": "hot", "ee": "palav", "type": "weather" },
+  { "en": "warm", "ee": "soe", "type": "weather" },
+  { "en": "cold", "ee": "külm", "type": "weather" },
+  {
+    "en": "monday",
+    "ee": "esmaspäev, esmaspäeva, esmaspäeva / esmaspäevi",
+    "type": "daysOfWeek"
+  },
+  {
+    "en": "tuesday",
+    "ee": "teisipäev, teisipäeva, teisipäeva / teisipäevi",
+    "type": "daysOfWeek"
+  },
+  {
+    "en": "wednesday",
+    "ee": "kolmapäev, kolmapäeva, kolmapäeva / kolmapäevi",
+    "type": "daysOfWeek"
+  },
+  {
+    "en": "thrusday",
+    "ee": "neljapäev, neljapäeva, neljapäeva / neljapäevi",
+    "type": "daysOfWeek"
+  },
+  {
+    "en": "friday",
+    "ee": "reede, reede, reedet / reedeid",
+    "type": "daysOfWeek"
+  },
+  {
+    "en": "saturday",
+    "ee": "laupäev, laupäeva, laupäeva / laupäevi",
+    "type": "daysOfWeek"
+  },
+  {
+    "en": "sunday",
+    "ee": "pühapäev, pühapäeva, pühapäeva / pühapäevi",
+    "type": "daysOfWeek"
+  }
 ]
