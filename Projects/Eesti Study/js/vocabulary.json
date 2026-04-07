@@ -1,4 +1,5 @@
 [
+  { "en": "to answer", "ee": "vastama, vastan, vastata", "type": "verbs" },
   { "en": "to ask", "ee": "küsima, küsin, küsida", "type": "verbs" },
   { "en": "to be", "ee": "olema, olen, olla", "type": "verbs" },
   { "en": "to call", "ee": "helistama, helistan, helistada", "type": "verbs" },
@@ -347,14 +348,15 @@
     "ee": "kirjanik, kirjaniku, kirjanikku / kirjanikke",
     "type": "profession"
   },
-  { "en": "All the best!", "ee": "Kõike head", "type": "greetingFarewell" },
+  { "en": "hello", "ee": "Tere ", "type": "greetingFarewell" },
+  { "en": "hi", "ee": "Tervist ", "type": "greetingFarewell" },
+  { "en": "good morning", "ee": "Tere hommikust", "type": "greetingFarewell" },
+  { "en": "good day", "ee": "Tere päevast", "type": "greetingFarewell" },
   {
     "en": "good afternoon/evening",
     "ee": "Tere õhtust",
     "type": "greetingFarewell"
   },
-  { "en": "good day", "ee": "Tere päevast", "type": "greetingFarewell" },
-  { "en": "good morning", "ee": "Tere hommikust", "type": "greetingFarewell" },
   { "en": "good night!", "ee": "Head ööd", "type": "greetingFarewell" },
   { "en": "goodbye!", "ee": "Head aega", "type": "greetingFarewell" },
   {
@@ -362,12 +364,18 @@
     "ee": "Head õhtut",
     "type": "greetingFarewell"
   },
-  { "en": "hello", "ee": "Tere ", "type": "greetingFarewell" },
-  { "en": "hi", "ee": "Tervist ", "type": "greetingFarewell" },
   { "en": "see you tomorrow", "ee": "homseni", "type": "greetingFarewell" },
   { "en": "see you!", "ee": "Nägemiseni ", "type": "greetingFarewell" },
   { "en": "see you!", "ee": "Kohtumiseni ", "type": "greetingFarewell" },
   { "en": "see you! bye!", "ee": "Nägemist ", "type": "greetingFarewell" },
+  { "en": "All the best!", "ee": "Kõike head", "type": "greetingFarewell" },
+  { "en": "who", "ee": "kes", "type": "interrogative" },
+  { "en": "what", "ee": "mis", "type": "interrogative" },
+  { "en": "why", "ee": "miks", "type": "interrogative" },
+  { "en": "where", "ee": "kus", "type": "interrogative" },
+  { "en": "when", "ee": "millal", "type": "interrogative" },
+  { "en": "where to", "ee": "kuhu", "type": "interrogative" },
+  { "en": "which / What kind", "ee": "milline", "type": "interrogative" },
   { "en": "how", "ee": "kuidas", "type": "interrogative" },
   { "en": "how big", "ee": "kui suur", "type": "interrogative" },
   { "en": "how long", "ee": "kui kaua", "type": "interrogative" },
@@ -375,13 +383,6 @@
   { "en": "how much", "ee": "kui palju", "type": "interrogative" },
   { "en": "how often", "ee": "kui tihti", "type": "interrogative" },
   { "en": "how old", "ee": "kui vana", "type": "interrogative" },
-  { "en": "what", "ee": "mis", "type": "interrogative" },
-  { "en": "when", "ee": "millal", "type": "interrogative" },
-  { "en": "where", "ee": "kus", "type": "interrogative" },
-  { "en": "where to", "ee": "kuhu", "type": "interrogative" },
-  { "en": "which / What kind", "ee": "milline", "type": "interrogative" },
-  { "en": "who", "ee": "kes", "type": "interrogative" },
-  { "en": "why", "ee": "miks", "type": "interrogative" },
   { "en": "coworker", "ee": "töökaaslane", "type": "people" },
   { "en": "neighbour", "ee": "naaber", "type": "people" },
   { "en": "friend", "ee": "sõber", "type": "people" },
@@ -470,8 +471,8 @@
   { "en": "warm", "ee": "soe", "type": "weather" },
   { "en": "cold", "ee": "külm", "type": "weather" },
   { "en": "Year", "ee": "aasta", "type": "time" },
-  { "en": "season", "ee": "aastajad", "type": "time" },
   { "en": "month", "ee": "kuud", "type": "time" },
+  { "en": "season", "ee": "aastajad", "type": "time" },
   { "en": "Winter", "ee": "talv", "type": "time" },
   { "en": "Spring", "ee": "kevad", "type": "time" },
   { "en": "Summer", "ee": "suvi", "type": "time" },
@@ -499,28 +500,8 @@
   { "en": "Three times quarter (clock)", "ee": "kolmveerand", "type": "time" },
   { "en": "half to (clock)", "ee": "pool", "type": "time" },
   {
-    "en": "friday",
-    "ee": "reede, reede, reedet / reedeid",
-    "type": "daysOfWeek"
-  },
-  {
     "en": "monday",
     "ee": "esmaspäev, esmaspäeva, esmaspäeva / esmaspäevi",
-    "type": "daysOfWeek"
-  },
-  {
-    "en": "saturday",
-    "ee": "laupäev, laupäeva, laupäeva / laupäevi",
-    "type": "daysOfWeek"
-  },
-  {
-    "en": "sunday",
-    "ee": "pühapäev, pühapäeva, pühapäeva / pühapäevi",
-    "type": "daysOfWeek"
-  },
-  {
-    "en": "thrusday",
-    "ee": "neljapäev, neljapäeva, neljapäeva / neljapäevi",
     "type": "daysOfWeek"
   },
   {
@@ -531,6 +512,26 @@
   {
     "en": "wednesday",
     "ee": "kolmapäev, kolmapäeva, kolmapäeva / kolmapäevi",
+    "type": "daysOfWeek"
+  },
+  {
+    "en": "thursday",
+    "ee": "neljapäev, neljapäeva, neljapäeva / neljapäevi",
+    "type": "daysOfWeek"
+  },
+  {
+    "en": "friday",
+    "ee": "reede, reede, reedet / reedeid",
+    "type": "daysOfWeek"
+  },
+  {
+    "en": "saturday",
+    "ee": "laupäev, laupäeva, laupäeva / laupäevi",
+    "type": "daysOfWeek"
+  },
+  {
+    "en": "sunday",
+    "ee": "pühapäev, pühapäeva, pühapäeva / pühapäevi",
     "type": "daysOfWeek"
   },
   { "en": "excuse me", "ee": "Vabandage mind", "type": "phrase" },
@@ -719,10 +720,51 @@
   { "en": "red", "ee": "punane", "type": "colors" },
   { "en": "white", "ee": "valge", "type": "colors" },
   { "en": "yellow", "ee": "kollane", "type": "colors" },
-  { "en": "All the best!", "ee": "Kõike head", "type": "beginner" },
-  { "en": "big", "ee": "suur, suure, suurt / suuri", "type": "beginner" },
+  {
+    "en": "monday",
+    "ee": "esmaspäev, esmaspäeva, esmaspäeva / esmaspäevi",
+    "type": "beginner"
+  },
+  {
+    "en": "tuesday",
+    "ee": "teisipäev, teisipäeva, teisipäeva / teisipäevi",
+    "type": "beginner"
+  },
+  {
+    "en": "wednesday",
+    "ee": "kolmapäev, kolmapäeva, kolmapäeva / kolmapäevi",
+    "type": "beginner"
+  },
+  {
+    "en": "thrusday",
+    "ee": "neljapäev, neljapäeva, neljapäeva / neljapäevi",
+    "type": "beginner"
+  },
+  {
+    "en": "friday",
+    "ee": "reede, reede, reedet / reedeid",
+    "type": "beginner"
+  },
+  {
+    "en": "saturday",
+    "ee": "laupäev, laupäeva, laupäeva / laupäevi",
+    "type": "beginner"
+  },
+  {
+    "en": "sunday",
+    "ee": "pühapäev, pühapäeva, pühapäeva / pühapäevi",
+    "type": "beginner"
+  },
   { "en": "black", "ee": "must", "type": "beginner" },
   { "en": "blue", "ee": "sinine", "type": "beginner" },
+  { "en": "green", "ee": "roheline", "type": "beginner" },
+  { "en": "grey", "ee": "hall", "type": "beginner" },
+  { "en": "orange", "ee": "oranž", "type": "beginner" },
+  { "en": "purple", "ee": "lilla", "type": "beginner" },
+  { "en": "red", "ee": "punane", "type": "beginner" },
+  { "en": "white", "ee": "valge", "type": "beginner" },
+  { "en": "yellow", "ee": "kollane", "type": "beginner" },
+  { "en": "big", "ee": "suur, suure, suurt / suuri", "type": "beginner" },
   { "en": "Don't mention it", "ee": "Pole tänu väärt", "type": "beginner" },
   {
     "en": "Enjoy your meal! / Bon appetit!",
@@ -731,18 +773,11 @@
   },
   { "en": "excuse me", "ee": "Vabandage mind", "type": "beginner" },
   { "en": "Excuse me!", "ee": "Vabandage! / Vabanda", "type": "beginner" },
-  {
-    "en": "friday",
-    "ee": "reede, reede, reedet / reedeid",
-    "type": "beginner"
-  },
   { "en": "good afternoon/evening", "ee": "Tere õhtust", "type": "beginner" },
   { "en": "good day", "ee": "Tere päevast", "type": "beginner" },
   { "en": "good morning", "ee": "Tere hommikust", "type": "beginner" },
   { "en": "good night!", "ee": "Head ööd", "type": "beginner" },
   { "en": "goodbye!", "ee": "Head aega", "type": "beginner" },
-  { "en": "green", "ee": "roheline", "type": "beginner" },
-  { "en": "grey", "ee": "hall", "type": "beginner" },
   { "en": "Have a nice evening!", "ee": "Head õhtut", "type": "beginner" },
   { "en": "He/She", "ee": "tema / ta   (ending = b)", "type": "beginner" },
   { "en": "hello", "ee": "Tere ", "type": "beginner" },
@@ -755,11 +790,6 @@
     "ee": "Saage tuttavaks",
     "type": "beginner"
   },
-  {
-    "en": "monday",
-    "ee": "esmaspäev, esmaspäeva, esmaspäeva / esmaspäevi",
-    "type": "beginner"
-  },
   { "en": "new", "ee": "uus, uue, uut / uusi", "type": "beginner" },
   { "en": "nice to meet you", "ee": "meeldib tutvuda", "type": "beginner" },
   {
@@ -768,17 +798,9 @@
     "type": "beginner"
   },
   { "en": "old", "ee": "vana, vana, vana / vanu", "type": "beginner" },
-  { "en": "orange", "ee": "oranž", "type": "beginner" },
   {
     "en": "Please forgive me!",
     "ee": "Anna / Andke andeks!",
-    "type": "beginner"
-  },
-  { "en": "purple", "ee": "lilla", "type": "beginner" },
-  { "en": "red", "ee": "punane", "type": "beginner" },
-  {
-    "en": "saturday",
-    "ee": "laupäev, laupäeva, laupäeva / laupäevi",
     "type": "beginner"
   },
   { "en": "see you tomorrow", "ee": "homseni", "type": "beginner" },
@@ -791,11 +813,6 @@
     "type": "beginner"
   },
   { "en": "Sorry!", "ee": "Vabandust", "type": "beginner" },
-  {
-    "en": "sunday",
-    "ee": "pühapäev, pühapäeva, pühapäeva / pühapäevi",
-    "type": "beginner"
-  },
   { "en": "Thank you", "ee": "Tänan", "type": "beginner" },
   {
     "en": "Thank you very much",
@@ -804,24 +821,7 @@
   },
   { "en": "Thanks", "ee": "Äitah", "type": "beginner" },
   { "en": "They", "ee": "nemad / nad   (ending = vad)", "type": "beginner" },
-  {
-    "en": "thrusday",
-    "ee": "neljapäev, neljapäeva, neljapäeva / neljapäevi",
-    "type": "beginner"
-  },
-  {
-    "en": "tuesday",
-    "ee": "teisipäev, teisipäeva, teisipäeva / teisipäevi",
-    "type": "beginner"
-  },
   { "en": "We", "ee": "meie / me   (ending = me)", "type": "beginner" },
-  {
-    "en": "wednesday",
-    "ee": "kolmapäev, kolmapäeva, kolmapäeva / kolmapäevi",
-    "type": "beginner"
-  },
-  { "en": "white", "ee": "valge", "type": "beginner" },
-  { "en": "yellow", "ee": "kollane", "type": "beginner" },
   { "en": "You", "ee": "sina / sa   (ending = d)", "type": "beginner" },
   {
     "en": "You (plural)",
@@ -829,6 +829,7 @@
     "type": "beginner"
   },
   { "en": "You're welcome!", "ee": "Võta / võtke heaks!", "type": "beginner" },
+  { "en": "All the best!", "ee": "Kõike head", "type": "beginner" },
   { "en": "better", "ee": "parem", "type": "toBeSorted" },
   { "en": "surname", "ee": "perekonnanimi / perenimi", "type": "toBeSorted" },
   { "en": "first name", "ee": "eesnimi", "type": "toBeSorted" },
@@ -855,15 +856,5 @@
   { "en": "answer", "ee": "vasta", "type": "toBeSorted" },
   { "en": "ask", "ee": "küsi", "type": "toBeSorted" },
   { "en": "add", "ee": "lisa", "type": "toBeSorted" },
-  { "en": "example", "ee": "Näide", "type": "toBeSorted" },
-  { "en": "He/She", "ee": "tema / ta   (ending = b)", "type": "pronouns" },
-  { "en": "I", "ee": "mina / ma   (ending = n)", "type": "pronouns" },
-  { "en": "They", "ee": "nemad / nad   (ending = vad)", "type": "pronouns" },
-  { "en": "We", "ee": "meie / me   (ending = me)", "type": "pronouns" },
-  { "en": "You", "ee": "sina / sa   (ending = d)", "type": "pronouns" },
-  {
-    "en": "You (plural)",
-    "ee": "teie / te   (ending = te)",
-    "type": "pronouns"
-  }
+  { "en": "example", "ee": "Näide", "type": "toBeSorted" }
 ]
