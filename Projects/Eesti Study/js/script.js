@@ -268,6 +268,13 @@ fetchAndStoreVocabulary();
   populateList(beginner);
 })();
 
+// homework
+(async () => {
+  await fetchAndStoreVocabulary();
+  const homework = vocabularyArr.filter(word => word.type.includes(`homework`));
+  populateList(homework);
+})();
+
 (async () => {
   const backToTopBtn = function () {
     const html = `

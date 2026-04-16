@@ -440,32 +440,32 @@
     "ee": "naaber, naabri, naabrit / naabreid",
     "type": "people"
   },
-  { "en": "It is sunny", "ee": "Päike paistab", "type": "weather" },
-  { "en": "It is raining", "ee": "Vihma sajab", "type": "weather" },
-  { "en": "It is snowing", "ee": "Lund sajab", "type": "weather" },
-  { "en": "The weather is nice", "ee": "On ilus ilm", "type": "weather" },
-  { "en": "The weather is bad", "ee": "On kole ilm", "type": "weather" },
+  { "en": "It is sunny", "ee": "Päike paistab", "type": "homework" },
+  { "en": "It is raining", "ee": "Vihma sajab", "type": "homework" },
+  { "en": "It is snowing", "ee": "Lund sajab", "type": "homework" },
+  { "en": "The weather is nice", "ee": "On ilus ilm", "type": "homework" },
+  { "en": "The weather is bad", "ee": "On kole ilm", "type": "homework" },
   {
     "en": "There is thunder and lightning",
     "ee": "Müristab ja lööb äikest",
-    "type": "weather"
+    "type": "homework"
   },
-  { "en": "The sky is clear", "ee": "Taevas on selge", "type": "weather" },
-  { "en": "It is cloudy", "ee": "On pilvine", "type": "weather" },
-  { "en": "It is windy", "ee": "On tuuline", "type": "weather" },
-  { "en": "It is foggy", "ee": "On udune", "type": "weather" },
-  { "en": "It is cold", "ee": "On külm", "type": "weather" },
-  { "en": "It is warm", "ee": "On soe", "type": "weather" },
-  { "en": "It is hot", "ee": "oskan küll", "type": "weather" },
+  { "en": "The sky is clear", "ee": "Taevas on selge", "type": "homework" },
+  { "en": "It is cloudy", "ee": "On pilvine", "type": "homework" },
+  { "en": "It is windy", "ee": "On tuuline", "type": "homework" },
+  { "en": "It is foggy", "ee": "On udune", "type": "homework" },
+  { "en": "It is cold", "ee": "On külm", "type": "homework" },
+  { "en": "It is warm", "ee": "On soe", "type": "homework" },
+  { "en": "It is hot", "ee": "oskan küll", "type": "homework" },
   {
     "en": "It is 25 degrees outside",
     "ee": "Väljas on 25 kraadi sooja",
-    "type": "weather"
+    "type": "homework"
   },
   {
     "en": "It is minus 2 degrees outside",
     "ee": "Väljas on 2 kraadi külma",
-    "type": "weather"
+    "type": "homework"
   },
   { "en": "hot", "ee": "palav", "type": "weather" },
   { "en": "warm", "ee": "soe", "type": "weather" },
@@ -857,6 +857,16 @@
   { "en": "ask", "ee": "küsi", "type": "toBeSorted" },
   { "en": "add", "ee": "lisa", "type": "toBeSorted" },
   { "en": "example", "ee": "Näide", "type": "toBeSorted" },
+  { "en": "He/She", "ee": "tema / ta   (ending = b)", "type": "pronouns" },
+  { "en": "I", "ee": "mina / ma   (ending = n)", "type": "pronouns" },
+  { "en": "They", "ee": "nemad / nad   (ending = vad)", "type": "pronouns" },
+  { "en": "We", "ee": "meie / me   (ending = me)", "type": "pronouns" },
+  { "en": "You", "ee": "sina / sa   (ending = d)", "type": "pronouns" },
+  {
+    "en": "You (plural)",
+    "ee": "teie / te   (ending = te)",
+    "type": "pronouns"
+  },
   { "en": "Weekday", "ee": "nädalpäev", "type": "daysOfWeek" },
   { "en": "weekend", "ee": "nädalavahetus", "type": "daysOfWeek" },
   { "en": "one", "ee": "üks", "type": "beginner" },
@@ -878,5 +888,128 @@
   { "en": "seventeen", "ee": "seitseteist", "type": "beginner" },
   { "en": "eighteen", "ee": "kaheksateist", "type": "beginner" },
   { "en": "nineteen", "ee": "üheksateist", "type": "beginner" },
-  { "en": "twenty", "ee": "kakskümmend", "type": "beginner" }
+  { "en": "twenty", "ee": "kakskümmend", "type": "beginner" },
+  { "en": "child", "ee": "laps", "type": "beginner" },
+  { "en": "sister", "ee": "õde, õe, õde / õdesid", "type": "beginner" },
+  { "en": "brother", "ee": "vend, venna, venda / vendi", "type": "beginner" },
+  {
+    "en": "Daughter",
+    "ee": "tütar, tütre, tütart / tütreid",
+    "type": "beginner"
+  },
+  { "en": "son", "ee": "poeg, poja, poega / poegasid", "type": "beginner" },
+  { "en": "aunt", "ee": "tädi, tädi, tädi / tädisid", "type": "beginner" },
+  { "en": "uncle", "ee": "onu, onu, onu / onusid", "type": "beginner" },
+  {
+    "en": "grandmother",
+    "ee": "vanaema, vanaema, vanaema / vanaemasid",
+    "type": "beginner"
+  },
+  {
+    "en": "grandfather",
+    "ee": "vanaisa, vanaisa, vanaisa / vanaisasid",
+    "type": "beginner"
+  },
+  {
+    "en": "grandchild",
+    "ee": "lapselaps, lapselapse, lapselast / lapselapsi",
+    "type": "beginner"
+  },
+  {
+    "en": "person human",
+    "ee": "inimene, inimese, inimest / inimesi",
+    "type": "beginner"
+  },
+  { "en": "child", "ee": "laps, lapse, last / lapsi", "type": "beginner" },
+  { "en": "woman", "ee": "naine, naise, naist / naisi", "type": "beginner" },
+  { "en": "man", "ee": "mees, mehe, meest / mehi", "type": "beginner" },
+  {
+    "en": "girl",
+    "ee": "tüdruk, tüdruku, tüdrukut / tüdrukuid",
+    "type": "beginner"
+  },
+  { "en": "boy", "ee": "poiss, poisi, poissi / poisse", "type": "beginner" },
+  { "en": "friend", "ee": "sõber, sõbra, sõpra / sõpru", "type": "beginner" },
+  {
+    "en": "colleague",
+    "ee": "kolleeg, kolleegi, kolleegi / kolleege",
+    "type": "beginner"
+  },
+  {
+    "en": "neighbour",
+    "ee": "naaber, naabri, naabrit / naabreid",
+    "type": "beginner"
+  },
+  {
+    "en": "to watch TV",
+    "ee": "telekat vaatama, vaatan telekat,telekat vaadata",
+    "type": "homework"
+  },
+  {
+    "en": "to listen to the music",
+    "ee": "muusikat kuulama, kuulan muusikat, muusikat kuulata",
+    "type": "homework"
+  },
+  {
+    "en": "to read a book",
+    "ee": "raamatut lugema, loen raamatut, raamatut lugeda",
+    "type": "homework"
+  },
+  {
+    "en": "to take pictures",
+    "ee": "pilte tegema, teen pilte, pilte teha",
+    "type": "homework"
+  },
+  {
+    "en": "to walk a dog",
+    "ee": "koeraga jalutama, jalutan koeraga, koeraga jalutada",
+    "type": "homework"
+  },
+  { "en": "to run", "ee": "jooksma, jooksen, joosta", "type": "homework" },
+  { "en": "to swim", "ee": "ujuma, ujun, ujuda", "type": "homework" },
+  {
+    "en": "to ride a bike",
+    "ee": "jalgrattaga sõitma, sõidan jalgrattaga, jalgrattaga sõita",
+    "type": "homework"
+  },
+  {
+    "en": "to ski",
+    "ee": "suusatama, suusatan, suusatada",
+    "type": "homework"
+  },
+  { "en": "to skate", "ee": "uisutama, uisutan, uisutada", "type": "homework" },
+  {
+    "en": "to play football",
+    "ee": "jalgpalli mängima, mängin jalgpalli, jalgpalli mängida",
+    "type": "homework"
+  },
+  {
+    "en": "to play basketball",
+    "ee": "korvpalli mängima, mängin korvpalli, korvpalli mängida",
+    "type": "homework"
+  },
+  {
+    "en": "to play a board game",
+    "ee": "lauamängu mängima, mängin lauamängu, lauamängu mängida",
+    "type": "homework"
+  },
+  {
+    "en": "to play guitar",
+    "ee": "kitarri mängima, mängin kitarri, kitarri mängida",
+    "type": "homework"
+  },
+  {
+    "en": "to play piano",
+    "ee": "klaverit mängima, mängin klaverit, klaverit mängida",
+    "type": "homework"
+  },
+  { "en": "to dance", "ee": "tantsima, tantsin, tantsida", "type": "homework" },
+  { "en": "to sing", "ee": "laulma, laulan, laulda", "type": "homework" },
+  { "en": "to travel", "ee": "reisima, reisin, reisida", "type": "homework" },
+  { "en": "to rest", "ee": "puhkama, puhkan, puhata", "type": "homework" },
+  {
+    "en": "to meet with a friend",
+    "ee": "sõbraga kokku saama, saan sõbraga kokku, sõbraga kokku saada",
+    "type": "homework"
+  }
 ]
